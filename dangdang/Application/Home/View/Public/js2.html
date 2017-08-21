@@ -1,0 +1,70 @@
+<script type="text/javascript" src="__PUBLIC__/Bootstrap/js/jquery/jquery-migrate.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/Bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/Bootstrap/js/jquery/js.cookie.min.js"></script>
+<!-- OPEN LIBS JS -->
+<script type="text/javascript" src="__PUBLIC__/Bootstrap/js/owl-carousel/owl.carousel.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/Bootstrap/js/slick-1.6.0/slick.min.js"></script>
+
+<script type="text/javascript">
+    /* <![CDATA[ */
+    var woocommerce_price_slider_params = {"currency_symbol":"$","currency_pos":"left","min_price":"100","max_price":"500"};
+    var wc_single_product_params = {"i18n_required_rating_text":"Please select a rating","review_rating_required":"yes"};
+    /* ]]> */
+</script>
+
+<script type="text/javascript" src="__PUBLIC__/Bootstrap/js/widget.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/Bootstrap/js/mouse.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/Bootstrap/js/slider.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/Bootstrap/js/js_composer/js_composer_front.min.js"></script>
+
+<script type="text/javascript" src="__PUBLIC__/Bootstrap/js/yith-woocommerce-compare/jquery.colorbox-min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/Bootstrap/js/sw_core/isotope.js"></script>
+<script type="text/javascript" src="__PUBLIC__/Bootstrap/js/sw_core/jquery.fancybox.pack.js"></script>
+<script type="text/javascript" src="__PUBLIC__/Bootstrap/js/sw_woocommerce/category-ajax.js"></script>
+<script type="text/javascript" src="__PUBLIC__/Bootstrap/js/sw_woocommerce/jquery.countdown.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/Bootstrap/js/woocommerce/price-slider.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/Bootstrap/js/woocommerce/single-product.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/Bootstrap/js/woocommerce/prettyPhoto/jquery.prettyPhoto.init.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/Bootstrap/js/woocommerce/prettyPhoto/jquery.prettyPhoto.min.js"></script>
+
+<script type="text/javascript" src="__PUBLIC__/Bootstrap/js/plugins.js"></script>
+<script type="text/javascript" src="__PUBLIC__/Bootstrap/js/megamenu.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/Bootstrap/js/main.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/layer/layer.js"></script>
+<script type="text/javascript">
+    var sticky_navigation_offset_top = $("#header .header-bottom").offset().top;
+    var sticky_navigation = function(){
+        var scroll_top = $(window).scrollTop();
+        if (scroll_top > sticky_navigation_offset_top) {
+            $("#header .header-bottom").addClass("sticky-menu");
+            $("#header .header-bottom").css({ "top":0, "left":0, "right" : 0 });
+        } else {
+            $("#header .header-bottom").removeClass("sticky-menu");
+        }
+    };
+    sticky_navigation();
+    $(window).scroll(function() {
+        sticky_navigation();
+    });
+
+    $(document).ready (function () {
+        $( ".show-dropdown" ).each(function(){
+            $(this).on("click", function(){
+                $(this).toggleClass("show");
+                var $element = $(this).parent().find( "> ul" );
+                $element.toggle( 300 );
+            });
+        });
+    });
+</script>
+
+<!--[if gte IE 9]><!-->
+<script type="text/javascript">
+    var request, b = document.body, c = 'className', cs = 'customize-support', rcs = new RegExp('(^|\\s+)(no-)?'+cs+'(\\s+|$)');
+    request = true;
+
+    b[c] = b[c].replace( rcs, ' ' );
+    // The customizer requires postMessage and CORS (if the site is cross domain)
+    b[c] += ( window.postMessage && request ? ' ' : ' no-' ) + cs;
+</script>
+<!--<![endif]-->

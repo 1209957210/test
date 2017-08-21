@@ -1,0 +1,762 @@
+[ 2017-08-08T15:42:32+08:00 ] ::1 /dangdang/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-08T15:42:33+08:00 ] ::1 /dangdang/Login/getLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-08T15:42:39+08:00 ] ::1 /dangdang/Index/search.html?goods_name=%E6%AC%A7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-08T15:42:40+08:00 ] ::1 /dangdang/Login/getLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-08T15:46:18+08:00 ] ::1 /dangdang/Index/search.html?goods_name=%E6%AC%A7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-08T15:46:18+08:00 ] ::1 /dangdang/Login/getLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-08T15:46:22+08:00 ] ::1 /dangdang/Index/search?page=1&goods_name=%E6%AC%A7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT A.id,A.goods_name,A.market_price,A.sales_price,A.classify,A.stock,A.state,B.id as bid,B.pid,B.images,B.time,B.first FROM shop_goods as A,shop_goods_images as B WHERE B.first=1 AND B.pid=A.id AND A.state=1 AND A.goods_name LIKE '%欧%' ORDER BY A.id ASC LIMIT 15,15 [ RunTime:0.0010s ]
+
+[ 2017-08-08T15:46:22+08:00 ] ::1 /dangdang/Index/search?page=2&goods_name=%E6%AC%A7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT A.id,A.goods_name,A.market_price,A.sales_price,A.classify,A.stock,A.state,B.id as bid,B.pid,B.images,B.time,B.first FROM shop_goods as A,shop_goods_images as B WHERE B.first=1 AND B.pid=A.id AND A.state=1 AND A.goods_name LIKE '%欧%' ORDER BY A.id ASC LIMIT 30,15 [ RunTime:0.0000s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\AppServ\www\dangdang\Application\Home\Controller\IndexController.class.php 第 71 行.
+
+[ 2017-08-08T15:46:22+08:00 ] ::1 /dangdang/Index/search?page=3&goods_name=%E6%AC%A7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT A.id,A.goods_name,A.market_price,A.sales_price,A.classify,A.stock,A.state,B.id as bid,B.pid,B.images,B.time,B.first FROM shop_goods as A,shop_goods_images as B WHERE B.first=1 AND B.pid=A.id AND A.state=1 AND A.goods_name LIKE '%欧%' ORDER BY A.id ASC LIMIT 45,15 [ RunTime:0.0020s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\AppServ\www\dangdang\Application\Home\Controller\IndexController.class.php 第 71 行.
+
+[ 2017-08-08T15:46:22+08:00 ] ::1 /dangdang/Index/search?page=4&goods_name=%E6%AC%A7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT A.id,A.goods_name,A.market_price,A.sales_price,A.classify,A.stock,A.state,B.id as bid,B.pid,B.images,B.time,B.first FROM shop_goods as A,shop_goods_images as B WHERE B.first=1 AND B.pid=A.id AND A.state=1 AND A.goods_name LIKE '%欧%' ORDER BY A.id ASC LIMIT 60,15 [ RunTime:0.0000s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\AppServ\www\dangdang\Application\Home\Controller\IndexController.class.php 第 71 行.
+
+[ 2017-08-08T15:46:23+08:00 ] ::1 /dangdang/Index/search?page=5&goods_name=%E6%AC%A7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT A.id,A.goods_name,A.market_price,A.sales_price,A.classify,A.stock,A.state,B.id as bid,B.pid,B.images,B.time,B.first FROM shop_goods as A,shop_goods_images as B WHERE B.first=1 AND B.pid=A.id AND A.state=1 AND A.goods_name LIKE '%欧%' ORDER BY A.id ASC LIMIT 75,15 [ RunTime:0.0020s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\AppServ\www\dangdang\Application\Home\Controller\IndexController.class.php 第 71 行.
+
+[ 2017-08-08T15:46:24+08:00 ] ::1 /dangdang/Index/search?page=6&goods_name=%E6%AC%A7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT A.id,A.goods_name,A.market_price,A.sales_price,A.classify,A.stock,A.state,B.id as bid,B.pid,B.images,B.time,B.first FROM shop_goods as A,shop_goods_images as B WHERE B.first=1 AND B.pid=A.id AND A.state=1 AND A.goods_name LIKE '%欧%' ORDER BY A.id ASC LIMIT 90,15 [ RunTime:0.0000s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\AppServ\www\dangdang\Application\Home\Controller\IndexController.class.php 第 71 行.
+
+[ 2017-08-08T15:46:24+08:00 ] ::1 /dangdang/Index/search?page=7&goods_name=%E6%AC%A7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT A.id,A.goods_name,A.market_price,A.sales_price,A.classify,A.stock,A.state,B.id as bid,B.pid,B.images,B.time,B.first FROM shop_goods as A,shop_goods_images as B WHERE B.first=1 AND B.pid=A.id AND A.state=1 AND A.goods_name LIKE '%欧%' ORDER BY A.id ASC LIMIT 105,15 [ RunTime:0.0010s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\AppServ\www\dangdang\Application\Home\Controller\IndexController.class.php 第 71 行.
+
+[ 2017-08-08T15:46:24+08:00 ] ::1 /dangdang/Index/search?page=8&goods_name=%E6%AC%A7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SELECT A.id,A.goods_name,A.market_price,A.sales_price,A.classify,A.stock,A.state,B.id as bid,B.pid,B.images,B.time,B.first FROM shop_goods as A,shop_goods_images as B WHERE B.first=1 AND B.pid=A.id AND A.state=1 AND A.goods_name LIKE '%欧%' ORDER BY A.id ASC LIMIT 120,15 [ RunTime:0.0010s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\AppServ\www\dangdang\Application\Home\Controller\IndexController.class.php 第 71 行.
+
+[ 2017-08-08T15:46:24+08:00 ] ::1 /dangdang/Index/search?page=9&goods_name=%E6%AC%A7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT A.id,A.goods_name,A.market_price,A.sales_price,A.classify,A.stock,A.state,B.id as bid,B.pid,B.images,B.time,B.first FROM shop_goods as A,shop_goods_images as B WHERE B.first=1 AND B.pid=A.id AND A.state=1 AND A.goods_name LIKE '%欧%' ORDER BY A.id ASC LIMIT 135,15 [ RunTime:0.0010s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\AppServ\www\dangdang\Application\Home\Controller\IndexController.class.php 第 71 行.
+
+[ 2017-08-08T15:46:24+08:00 ] ::1 /dangdang/Index/search?page=10&goods_name=%E6%AC%A7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT A.id,A.goods_name,A.market_price,A.sales_price,A.classify,A.stock,A.state,B.id as bid,B.pid,B.images,B.time,B.first FROM shop_goods as A,shop_goods_images as B WHERE B.first=1 AND B.pid=A.id AND A.state=1 AND A.goods_name LIKE '%欧%' ORDER BY A.id ASC LIMIT 150,15 [ RunTime:0.0000s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\AppServ\www\dangdang\Application\Home\Controller\IndexController.class.php 第 71 行.
+
+[ 2017-08-08T15:46:24+08:00 ] ::1 /dangdang/Index/search?page=11&goods_name=%E6%AC%A7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT A.id,A.goods_name,A.market_price,A.sales_price,A.classify,A.stock,A.state,B.id as bid,B.pid,B.images,B.time,B.first FROM shop_goods as A,shop_goods_images as B WHERE B.first=1 AND B.pid=A.id AND A.state=1 AND A.goods_name LIKE '%欧%' ORDER BY A.id ASC LIMIT 165,15 [ RunTime:0.0010s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\AppServ\www\dangdang\Application\Home\Controller\IndexController.class.php 第 71 行.
+
+[ 2017-08-08T15:46:24+08:00 ] ::1 /dangdang/Index/search?page=12&goods_name=%E6%AC%A7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT A.id,A.goods_name,A.market_price,A.sales_price,A.classify,A.stock,A.state,B.id as bid,B.pid,B.images,B.time,B.first FROM shop_goods as A,shop_goods_images as B WHERE B.first=1 AND B.pid=A.id AND A.state=1 AND A.goods_name LIKE '%欧%' ORDER BY A.id ASC LIMIT 180,15 [ RunTime:0.0000s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\AppServ\www\dangdang\Application\Home\Controller\IndexController.class.php 第 71 行.
+
+[ 2017-08-08T15:46:24+08:00 ] ::1 /dangdang/Index/search?page=13&goods_name=%E6%AC%A7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT A.id,A.goods_name,A.market_price,A.sales_price,A.classify,A.stock,A.state,B.id as bid,B.pid,B.images,B.time,B.first FROM shop_goods as A,shop_goods_images as B WHERE B.first=1 AND B.pid=A.id AND A.state=1 AND A.goods_name LIKE '%欧%' ORDER BY A.id ASC LIMIT 195,15 [ RunTime:0.0020s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\AppServ\www\dangdang\Application\Home\Controller\IndexController.class.php 第 71 行.
+
+[ 2017-08-08T15:46:24+08:00 ] ::1 /dangdang/Index/search?page=14&goods_name=%E6%AC%A7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT A.id,A.goods_name,A.market_price,A.sales_price,A.classify,A.stock,A.state,B.id as bid,B.pid,B.images,B.time,B.first FROM shop_goods as A,shop_goods_images as B WHERE B.first=1 AND B.pid=A.id AND A.state=1 AND A.goods_name LIKE '%欧%' ORDER BY A.id ASC LIMIT 210,15 [ RunTime:0.0000s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\AppServ\www\dangdang\Application\Home\Controller\IndexController.class.php 第 71 行.
+
+[ 2017-08-08T15:46:24+08:00 ] ::1 /dangdang/Index/search?page=15&goods_name=%E6%AC%A7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT A.id,A.goods_name,A.market_price,A.sales_price,A.classify,A.stock,A.state,B.id as bid,B.pid,B.images,B.time,B.first FROM shop_goods as A,shop_goods_images as B WHERE B.first=1 AND B.pid=A.id AND A.state=1 AND A.goods_name LIKE '%欧%' ORDER BY A.id ASC LIMIT 225,15 [ RunTime:0.0010s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\AppServ\www\dangdang\Application\Home\Controller\IndexController.class.php 第 71 行.
+
+[ 2017-08-08T15:46:24+08:00 ] ::1 /dangdang/Index/search?page=16&goods_name=%E6%AC%A7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT A.id,A.goods_name,A.market_price,A.sales_price,A.classify,A.stock,A.state,B.id as bid,B.pid,B.images,B.time,B.first FROM shop_goods as A,shop_goods_images as B WHERE B.first=1 AND B.pid=A.id AND A.state=1 AND A.goods_name LIKE '%欧%' ORDER BY A.id ASC LIMIT 240,15 [ RunTime:0.0010s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\AppServ\www\dangdang\Application\Home\Controller\IndexController.class.php 第 71 行.
+
+[ 2017-08-08T15:46:24+08:00 ] ::1 /dangdang/Index/search?page=17&goods_name=%E6%AC%A7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT A.id,A.goods_name,A.market_price,A.sales_price,A.classify,A.stock,A.state,B.id as bid,B.pid,B.images,B.time,B.first FROM shop_goods as A,shop_goods_images as B WHERE B.first=1 AND B.pid=A.id AND A.state=1 AND A.goods_name LIKE '%欧%' ORDER BY A.id ASC LIMIT 255,15 [ RunTime:0.0000s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\AppServ\www\dangdang\Application\Home\Controller\IndexController.class.php 第 71 行.
+
+[ 2017-08-08T15:46:24+08:00 ] ::1 /dangdang/Index/search?page=18&goods_name=%E6%AC%A7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT A.id,A.goods_name,A.market_price,A.sales_price,A.classify,A.stock,A.state,B.id as bid,B.pid,B.images,B.time,B.first FROM shop_goods as A,shop_goods_images as B WHERE B.first=1 AND B.pid=A.id AND A.state=1 AND A.goods_name LIKE '%欧%' ORDER BY A.id ASC LIMIT 270,15 [ RunTime:0.0000s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\AppServ\www\dangdang\Application\Home\Controller\IndexController.class.php 第 71 行.
+
+[ 2017-08-08T15:46:45+08:00 ] ::1 /dangdang/Index/search.html?goods_name=%E6%AC%A7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-08T15:46:45+08:00 ] ::1 /dangdang/Login/getLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-08T15:46:45+08:00 ] ::1 /dangdang/Index/search?page=1&goods_name=%E6%AC%A7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SELECT A.id,A.goods_name,A.market_price,A.sales_price,A.classify,A.stock,A.state,B.id as bid,B.pid,B.images,B.time,B.first FROM shop_goods as A,shop_goods_images as B WHERE B.first=1 AND B.pid=A.id AND A.state=1 AND A.goods_name LIKE '%欧%' ORDER BY A.id ASC LIMIT 15,15 [ RunTime:0.0010s ]
+
+[ 2017-08-08T15:46:45+08:00 ] ::1 /dangdang/Index/search?page=2&goods_name=%E6%AC%A7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT A.id,A.goods_name,A.market_price,A.sales_price,A.classify,A.stock,A.state,B.id as bid,B.pid,B.images,B.time,B.first FROM shop_goods as A,shop_goods_images as B WHERE B.first=1 AND B.pid=A.id AND A.state=1 AND A.goods_name LIKE '%欧%' ORDER BY A.id ASC LIMIT 30,15 [ RunTime:0.0000s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\AppServ\www\dangdang\Application\Home\Controller\IndexController.class.php 第 71 行.
+
+[ 2017-08-08T15:46:47+08:00 ] ::1 /dangdang/Index/search?page=3&goods_name=%E6%AC%A7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT A.id,A.goods_name,A.market_price,A.sales_price,A.classify,A.stock,A.state,B.id as bid,B.pid,B.images,B.time,B.first FROM shop_goods as A,shop_goods_images as B WHERE B.first=1 AND B.pid=A.id AND A.state=1 AND A.goods_name LIKE '%欧%' ORDER BY A.id ASC LIMIT 45,15 [ RunTime:0.0000s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\AppServ\www\dangdang\Application\Home\Controller\IndexController.class.php 第 71 行.
+
+[ 2017-08-08T15:46:47+08:00 ] ::1 /dangdang/Index/search?page=4&goods_name=%E6%AC%A7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT A.id,A.goods_name,A.market_price,A.sales_price,A.classify,A.stock,A.state,B.id as bid,B.pid,B.images,B.time,B.first FROM shop_goods as A,shop_goods_images as B WHERE B.first=1 AND B.pid=A.id AND A.state=1 AND A.goods_name LIKE '%欧%' ORDER BY A.id ASC LIMIT 60,15 [ RunTime:0.0000s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\AppServ\www\dangdang\Application\Home\Controller\IndexController.class.php 第 71 行.
+
+[ 2017-08-08T15:46:48+08:00 ] ::1 /dangdang/Index/search?page=5&goods_name=%E6%AC%A7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT A.id,A.goods_name,A.market_price,A.sales_price,A.classify,A.stock,A.state,B.id as bid,B.pid,B.images,B.time,B.first FROM shop_goods as A,shop_goods_images as B WHERE B.first=1 AND B.pid=A.id AND A.state=1 AND A.goods_name LIKE '%欧%' ORDER BY A.id ASC LIMIT 75,15 [ RunTime:0.0000s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\AppServ\www\dangdang\Application\Home\Controller\IndexController.class.php 第 71 行.
+
+[ 2017-08-08T15:46:48+08:00 ] ::1 /dangdang/Index/search?page=6&goods_name=%E6%AC%A7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT A.id,A.goods_name,A.market_price,A.sales_price,A.classify,A.stock,A.state,B.id as bid,B.pid,B.images,B.time,B.first FROM shop_goods as A,shop_goods_images as B WHERE B.first=1 AND B.pid=A.id AND A.state=1 AND A.goods_name LIKE '%欧%' ORDER BY A.id ASC LIMIT 90,15 [ RunTime:0.0000s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\AppServ\www\dangdang\Application\Home\Controller\IndexController.class.php 第 71 行.
+
+[ 2017-08-08T15:46:48+08:00 ] ::1 /dangdang/Index/search?page=7&goods_name=%E6%AC%A7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT A.id,A.goods_name,A.market_price,A.sales_price,A.classify,A.stock,A.state,B.id as bid,B.pid,B.images,B.time,B.first FROM shop_goods as A,shop_goods_images as B WHERE B.first=1 AND B.pid=A.id AND A.state=1 AND A.goods_name LIKE '%欧%' ORDER BY A.id ASC LIMIT 105,15 [ RunTime:0.0010s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\AppServ\www\dangdang\Application\Home\Controller\IndexController.class.php 第 71 行.
+
+[ 2017-08-08T15:46:48+08:00 ] ::1 /dangdang/Index/search?page=8&goods_name=%E6%AC%A7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT A.id,A.goods_name,A.market_price,A.sales_price,A.classify,A.stock,A.state,B.id as bid,B.pid,B.images,B.time,B.first FROM shop_goods as A,shop_goods_images as B WHERE B.first=1 AND B.pid=A.id AND A.state=1 AND A.goods_name LIKE '%欧%' ORDER BY A.id ASC LIMIT 120,15 [ RunTime:0.0010s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\AppServ\www\dangdang\Application\Home\Controller\IndexController.class.php 第 71 行.
+
+[ 2017-08-08T15:46:48+08:00 ] ::1 /dangdang/Index/search?page=9&goods_name=%E6%AC%A7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT A.id,A.goods_name,A.market_price,A.sales_price,A.classify,A.stock,A.state,B.id as bid,B.pid,B.images,B.time,B.first FROM shop_goods as A,shop_goods_images as B WHERE B.first=1 AND B.pid=A.id AND A.state=1 AND A.goods_name LIKE '%欧%' ORDER BY A.id ASC LIMIT 135,15 [ RunTime:0.0010s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\AppServ\www\dangdang\Application\Home\Controller\IndexController.class.php 第 71 行.
+
+[ 2017-08-08T15:46:48+08:00 ] ::1 /dangdang/Index/search?page=10&goods_name=%E6%AC%A7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT A.id,A.goods_name,A.market_price,A.sales_price,A.classify,A.stock,A.state,B.id as bid,B.pid,B.images,B.time,B.first FROM shop_goods as A,shop_goods_images as B WHERE B.first=1 AND B.pid=A.id AND A.state=1 AND A.goods_name LIKE '%欧%' ORDER BY A.id ASC LIMIT 150,15 [ RunTime:0.0000s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\AppServ\www\dangdang\Application\Home\Controller\IndexController.class.php 第 71 行.
+
+[ 2017-08-08T15:46:48+08:00 ] ::1 /dangdang/Index/search?page=11&goods_name=%E6%AC%A7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT A.id,A.goods_name,A.market_price,A.sales_price,A.classify,A.stock,A.state,B.id as bid,B.pid,B.images,B.time,B.first FROM shop_goods as A,shop_goods_images as B WHERE B.first=1 AND B.pid=A.id AND A.state=1 AND A.goods_name LIKE '%欧%' ORDER BY A.id ASC LIMIT 165,15 [ RunTime:0.0010s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\AppServ\www\dangdang\Application\Home\Controller\IndexController.class.php 第 71 行.
+
+[ 2017-08-08T15:46:48+08:00 ] ::1 /dangdang/Index/search?page=12&goods_name=%E6%AC%A7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT A.id,A.goods_name,A.market_price,A.sales_price,A.classify,A.stock,A.state,B.id as bid,B.pid,B.images,B.time,B.first FROM shop_goods as A,shop_goods_images as B WHERE B.first=1 AND B.pid=A.id AND A.state=1 AND A.goods_name LIKE '%欧%' ORDER BY A.id ASC LIMIT 180,15 [ RunTime:0.0010s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\AppServ\www\dangdang\Application\Home\Controller\IndexController.class.php 第 71 行.
+
+[ 2017-08-08T15:46:48+08:00 ] ::1 /dangdang/Index/search?page=13&goods_name=%E6%AC%A7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT A.id,A.goods_name,A.market_price,A.sales_price,A.classify,A.stock,A.state,B.id as bid,B.pid,B.images,B.time,B.first FROM shop_goods as A,shop_goods_images as B WHERE B.first=1 AND B.pid=A.id AND A.state=1 AND A.goods_name LIKE '%欧%' ORDER BY A.id ASC LIMIT 195,15 [ RunTime:0.0000s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\AppServ\www\dangdang\Application\Home\Controller\IndexController.class.php 第 71 行.
+
+[ 2017-08-08T15:46:48+08:00 ] ::1 /dangdang/Index/search?page=14&goods_name=%E6%AC%A7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT A.id,A.goods_name,A.market_price,A.sales_price,A.classify,A.stock,A.state,B.id as bid,B.pid,B.images,B.time,B.first FROM shop_goods as A,shop_goods_images as B WHERE B.first=1 AND B.pid=A.id AND A.state=1 AND A.goods_name LIKE '%欧%' ORDER BY A.id ASC LIMIT 210,15 [ RunTime:0.0000s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\AppServ\www\dangdang\Application\Home\Controller\IndexController.class.php 第 71 行.
+
+[ 2017-08-08T15:46:48+08:00 ] ::1 /dangdang/Index/search?page=15&goods_name=%E6%AC%A7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT A.id,A.goods_name,A.market_price,A.sales_price,A.classify,A.stock,A.state,B.id as bid,B.pid,B.images,B.time,B.first FROM shop_goods as A,shop_goods_images as B WHERE B.first=1 AND B.pid=A.id AND A.state=1 AND A.goods_name LIKE '%欧%' ORDER BY A.id ASC LIMIT 225,15 [ RunTime:0.0010s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\AppServ\www\dangdang\Application\Home\Controller\IndexController.class.php 第 71 行.
+
+[ 2017-08-08T15:46:48+08:00 ] ::1 /dangdang/Index/search?page=16&goods_name=%E6%AC%A7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT A.id,A.goods_name,A.market_price,A.sales_price,A.classify,A.stock,A.state,B.id as bid,B.pid,B.images,B.time,B.first FROM shop_goods as A,shop_goods_images as B WHERE B.first=1 AND B.pid=A.id AND A.state=1 AND A.goods_name LIKE '%欧%' ORDER BY A.id ASC LIMIT 240,15 [ RunTime:0.0010s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\AppServ\www\dangdang\Application\Home\Controller\IndexController.class.php 第 71 行.
+
+[ 2017-08-08T15:46:59+08:00 ] ::1 /dangdang/Index/search.html?goods_name=%E6%AC%A7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-08T15:46:59+08:00 ] ::1 /dangdang/Login/getLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-08T15:47:01+08:00 ] ::1 /dangdang/Index/search?page=1&goods_name=%E6%AC%A7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT A.id,A.goods_name,A.market_price,A.sales_price,A.classify,A.stock,A.state,B.id as bid,B.pid,B.images,B.time,B.first FROM shop_goods as A,shop_goods_images as B WHERE B.first=1 AND B.pid=A.id AND A.state=1 AND A.goods_name LIKE '%欧%' ORDER BY A.id ASC LIMIT 15,15 [ RunTime:0.0000s ]
+
+[ 2017-08-08T15:47:01+08:00 ] ::1 /dangdang/Index/search?page=2&goods_name=%E6%AC%A7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT A.id,A.goods_name,A.market_price,A.sales_price,A.classify,A.stock,A.state,B.id as bid,B.pid,B.images,B.time,B.first FROM shop_goods as A,shop_goods_images as B WHERE B.first=1 AND B.pid=A.id AND A.state=1 AND A.goods_name LIKE '%欧%' ORDER BY A.id ASC LIMIT 30,15 [ RunTime:0.0000s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\AppServ\www\dangdang\Application\Home\Controller\IndexController.class.php 第 71 行.
+
+[ 2017-08-08T15:47:01+08:00 ] ::1 /dangdang/Index/search?page=5&goods_name=%E6%AC%A7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT A.id,A.goods_name,A.market_price,A.sales_price,A.classify,A.stock,A.state,B.id as bid,B.pid,B.images,B.time,B.first FROM shop_goods as A,shop_goods_images as B WHERE B.first=1 AND B.pid=A.id AND A.state=1 AND A.goods_name LIKE '%欧%' ORDER BY A.id ASC LIMIT 75,15 [ RunTime:0.0000s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\AppServ\www\dangdang\Application\Home\Controller\IndexController.class.php 第 71 行.
+
+[ 2017-08-08T15:47:01+08:00 ] ::1 /dangdang/Index/search?page=4&goods_name=%E6%AC%A7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT A.id,A.goods_name,A.market_price,A.sales_price,A.classify,A.stock,A.state,B.id as bid,B.pid,B.images,B.time,B.first FROM shop_goods as A,shop_goods_images as B WHERE B.first=1 AND B.pid=A.id AND A.state=1 AND A.goods_name LIKE '%欧%' ORDER BY A.id ASC LIMIT 60,15 [ RunTime:0.0010s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\AppServ\www\dangdang\Application\Home\Controller\IndexController.class.php 第 71 行.
+
+[ 2017-08-08T15:47:01+08:00 ] ::1 /dangdang/Index/search?page=3&goods_name=%E6%AC%A7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SELECT A.id,A.goods_name,A.market_price,A.sales_price,A.classify,A.stock,A.state,B.id as bid,B.pid,B.images,B.time,B.first FROM shop_goods as A,shop_goods_images as B WHERE B.first=1 AND B.pid=A.id AND A.state=1 AND A.goods_name LIKE '%欧%' ORDER BY A.id ASC LIMIT 45,15 [ RunTime:0.0000s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\AppServ\www\dangdang\Application\Home\Controller\IndexController.class.php 第 71 行.
+
+[ 2017-08-08T15:47:01+08:00 ] ::1 /dangdang/Index/search?page=7&goods_name=%E6%AC%A7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT A.id,A.goods_name,A.market_price,A.sales_price,A.classify,A.stock,A.state,B.id as bid,B.pid,B.images,B.time,B.first FROM shop_goods as A,shop_goods_images as B WHERE B.first=1 AND B.pid=A.id AND A.state=1 AND A.goods_name LIKE '%欧%' ORDER BY A.id ASC LIMIT 105,15 [ RunTime:0.0000s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\AppServ\www\dangdang\Application\Home\Controller\IndexController.class.php 第 71 行.
+
+[ 2017-08-08T15:47:01+08:00 ] ::1 /dangdang/Index/search?page=6&goods_name=%E6%AC%A7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT A.id,A.goods_name,A.market_price,A.sales_price,A.classify,A.stock,A.state,B.id as bid,B.pid,B.images,B.time,B.first FROM shop_goods as A,shop_goods_images as B WHERE B.first=1 AND B.pid=A.id AND A.state=1 AND A.goods_name LIKE '%欧%' ORDER BY A.id ASC LIMIT 90,15 [ RunTime:0.0000s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\AppServ\www\dangdang\Application\Home\Controller\IndexController.class.php 第 71 行.
+
+[ 2017-08-08T15:48:43+08:00 ] ::1 /dangdang/Index/search?page=8&goods_name=%E6%AC%A7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT A.id,A.goods_name,A.market_price,A.sales_price,A.classify,A.stock,A.state,B.id as bid,B.pid,B.images,B.time,B.first FROM shop_goods as A,shop_goods_images as B WHERE B.first=1 AND B.pid=A.id AND A.state=1 AND A.goods_name LIKE '%欧%' ORDER BY A.id ASC LIMIT 120,15 [ RunTime:0.0010s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\AppServ\www\dangdang\Application\Home\Controller\IndexController.class.php 第 71 行.
+
+[ 2017-08-08T15:48:46+08:00 ] ::1 /dangdang/Index/search?page=9&goods_name=%E6%AC%A7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT A.id,A.goods_name,A.market_price,A.sales_price,A.classify,A.stock,A.state,B.id as bid,B.pid,B.images,B.time,B.first FROM shop_goods as A,shop_goods_images as B WHERE B.first=1 AND B.pid=A.id AND A.state=1 AND A.goods_name LIKE '%欧%' ORDER BY A.id ASC LIMIT 135,15 [ RunTime:0.0020s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\AppServ\www\dangdang\Application\Home\Controller\IndexController.class.php 第 71 行.
+
+[ 2017-08-08T15:48:49+08:00 ] ::1 /dangdang/Index/search?page=10&goods_name=%E6%AC%A7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT A.id,A.goods_name,A.market_price,A.sales_price,A.classify,A.stock,A.state,B.id as bid,B.pid,B.images,B.time,B.first FROM shop_goods as A,shop_goods_images as B WHERE B.first=1 AND B.pid=A.id AND A.state=1 AND A.goods_name LIKE '%欧%' ORDER BY A.id ASC LIMIT 150,15 [ RunTime:0.0010s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\AppServ\www\dangdang\Application\Home\Controller\IndexController.class.php 第 71 行.
+
+[ 2017-08-08T15:48:52+08:00 ] ::1 /dangdang/Index/search?page=11&goods_name=%E6%AC%A7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT A.id,A.goods_name,A.market_price,A.sales_price,A.classify,A.stock,A.state,B.id as bid,B.pid,B.images,B.time,B.first FROM shop_goods as A,shop_goods_images as B WHERE B.first=1 AND B.pid=A.id AND A.state=1 AND A.goods_name LIKE '%欧%' ORDER BY A.id ASC LIMIT 165,15 [ RunTime:0.0010s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\AppServ\www\dangdang\Application\Home\Controller\IndexController.class.php 第 71 行.
+
+[ 2017-08-08T15:48:54+08:00 ] ::1 /dangdang/Index/search?page=12&goods_name=%E6%AC%A7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT A.id,A.goods_name,A.market_price,A.sales_price,A.classify,A.stock,A.state,B.id as bid,B.pid,B.images,B.time,B.first FROM shop_goods as A,shop_goods_images as B WHERE B.first=1 AND B.pid=A.id AND A.state=1 AND A.goods_name LIKE '%欧%' ORDER BY A.id ASC LIMIT 180,15 [ RunTime:0.0010s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\AppServ\www\dangdang\Application\Home\Controller\IndexController.class.php 第 71 行.
+
+[ 2017-08-08T15:48:55+08:00 ] ::1 /dangdang/Index/search?page=13&goods_name=%E6%AC%A7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SELECT A.id,A.goods_name,A.market_price,A.sales_price,A.classify,A.stock,A.state,B.id as bid,B.pid,B.images,B.time,B.first FROM shop_goods as A,shop_goods_images as B WHERE B.first=1 AND B.pid=A.id AND A.state=1 AND A.goods_name LIKE '%欧%' ORDER BY A.id ASC LIMIT 195,15 [ RunTime:0.0020s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\AppServ\www\dangdang\Application\Home\Controller\IndexController.class.php 第 71 行.
+
+[ 2017-08-08T15:48:56+08:00 ] ::1 /dangdang/Index/search?page=14&goods_name=%E6%AC%A7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT A.id,A.goods_name,A.market_price,A.sales_price,A.classify,A.stock,A.state,B.id as bid,B.pid,B.images,B.time,B.first FROM shop_goods as A,shop_goods_images as B WHERE B.first=1 AND B.pid=A.id AND A.state=1 AND A.goods_name LIKE '%欧%' ORDER BY A.id ASC LIMIT 210,15 [ RunTime:0.0010s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\AppServ\www\dangdang\Application\Home\Controller\IndexController.class.php 第 71 行.
+
+[ 2017-08-08T15:48:57+08:00 ] ::1 /dangdang/Index/search?page=15&goods_name=%E6%AC%A7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT A.id,A.goods_name,A.market_price,A.sales_price,A.classify,A.stock,A.state,B.id as bid,B.pid,B.images,B.time,B.first FROM shop_goods as A,shop_goods_images as B WHERE B.first=1 AND B.pid=A.id AND A.state=1 AND A.goods_name LIKE '%欧%' ORDER BY A.id ASC LIMIT 225,15 [ RunTime:0.0010s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\AppServ\www\dangdang\Application\Home\Controller\IndexController.class.php 第 71 行.
+
+[ 2017-08-08T15:48:58+08:00 ] ::1 /dangdang/Index/search?page=16&goods_name=%E6%AC%A7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT A.id,A.goods_name,A.market_price,A.sales_price,A.classify,A.stock,A.state,B.id as bid,B.pid,B.images,B.time,B.first FROM shop_goods as A,shop_goods_images as B WHERE B.first=1 AND B.pid=A.id AND A.state=1 AND A.goods_name LIKE '%欧%' ORDER BY A.id ASC LIMIT 240,15 [ RunTime:0.0000s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\AppServ\www\dangdang\Application\Home\Controller\IndexController.class.php 第 71 行.
+
+[ 2017-08-08T15:48:59+08:00 ] ::1 /dangdang/Index/search?page=17&goods_name=%E6%AC%A7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT A.id,A.goods_name,A.market_price,A.sales_price,A.classify,A.stock,A.state,B.id as bid,B.pid,B.images,B.time,B.first FROM shop_goods as A,shop_goods_images as B WHERE B.first=1 AND B.pid=A.id AND A.state=1 AND A.goods_name LIKE '%欧%' ORDER BY A.id ASC LIMIT 255,15 [ RunTime:0.0000s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\AppServ\www\dangdang\Application\Home\Controller\IndexController.class.php 第 71 行.
+
+[ 2017-08-08T15:49:00+08:00 ] ::1 /dangdang/Index/search?page=18&goods_name=%E6%AC%A7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT A.id,A.goods_name,A.market_price,A.sales_price,A.classify,A.stock,A.state,B.id as bid,B.pid,B.images,B.time,B.first FROM shop_goods as A,shop_goods_images as B WHERE B.first=1 AND B.pid=A.id AND A.state=1 AND A.goods_name LIKE '%欧%' ORDER BY A.id ASC LIMIT 270,15 [ RunTime:0.0000s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\AppServ\www\dangdang\Application\Home\Controller\IndexController.class.php 第 71 行.
+
+[ 2017-08-08T15:49:01+08:00 ] ::1 /dangdang/Index/search?page=19&goods_name=%E6%AC%A7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT A.id,A.goods_name,A.market_price,A.sales_price,A.classify,A.stock,A.state,B.id as bid,B.pid,B.images,B.time,B.first FROM shop_goods as A,shop_goods_images as B WHERE B.first=1 AND B.pid=A.id AND A.state=1 AND A.goods_name LIKE '%欧%' ORDER BY A.id ASC LIMIT 285,15 [ RunTime:0.0000s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\AppServ\www\dangdang\Application\Home\Controller\IndexController.class.php 第 71 行.
+
+[ 2017-08-08T15:49:02+08:00 ] ::1 /dangdang/Index/search?page=20&goods_name=%E6%AC%A7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT A.id,A.goods_name,A.market_price,A.sales_price,A.classify,A.stock,A.state,B.id as bid,B.pid,B.images,B.time,B.first FROM shop_goods as A,shop_goods_images as B WHERE B.first=1 AND B.pid=A.id AND A.state=1 AND A.goods_name LIKE '%欧%' ORDER BY A.id ASC LIMIT 300,15 [ RunTime:0.0010s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\AppServ\www\dangdang\Application\Home\Controller\IndexController.class.php 第 71 行.
+
+[ 2017-08-08T15:49:02+08:00 ] ::1 /dangdang/Index/search?page=21&goods_name=%E6%AC%A7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT A.id,A.goods_name,A.market_price,A.sales_price,A.classify,A.stock,A.state,B.id as bid,B.pid,B.images,B.time,B.first FROM shop_goods as A,shop_goods_images as B WHERE B.first=1 AND B.pid=A.id AND A.state=1 AND A.goods_name LIKE '%欧%' ORDER BY A.id ASC LIMIT 315,15 [ RunTime:0.0000s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\AppServ\www\dangdang\Application\Home\Controller\IndexController.class.php 第 71 行.
+
+[ 2017-08-08T15:49:02+08:00 ] ::1 /dangdang/Index/search?page=22&goods_name=%E6%AC%A7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SELECT A.id,A.goods_name,A.market_price,A.sales_price,A.classify,A.stock,A.state,B.id as bid,B.pid,B.images,B.time,B.first FROM shop_goods as A,shop_goods_images as B WHERE B.first=1 AND B.pid=A.id AND A.state=1 AND A.goods_name LIKE '%欧%' ORDER BY A.id ASC LIMIT 330,15 [ RunTime:0.0000s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\AppServ\www\dangdang\Application\Home\Controller\IndexController.class.php 第 71 行.
+
+[ 2017-08-08T15:49:03+08:00 ] ::1 /dangdang/Index/search?page=23&goods_name=%E6%AC%A7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT A.id,A.goods_name,A.market_price,A.sales_price,A.classify,A.stock,A.state,B.id as bid,B.pid,B.images,B.time,B.first FROM shop_goods as A,shop_goods_images as B WHERE B.first=1 AND B.pid=A.id AND A.state=1 AND A.goods_name LIKE '%欧%' ORDER BY A.id ASC LIMIT 345,15 [ RunTime:0.0010s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\AppServ\www\dangdang\Application\Home\Controller\IndexController.class.php 第 71 行.
+
+[ 2017-08-08T15:49:03+08:00 ] ::1 /dangdang/Index/search?page=24&goods_name=%E6%AC%A7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT A.id,A.goods_name,A.market_price,A.sales_price,A.classify,A.stock,A.state,B.id as bid,B.pid,B.images,B.time,B.first FROM shop_goods as A,shop_goods_images as B WHERE B.first=1 AND B.pid=A.id AND A.state=1 AND A.goods_name LIKE '%欧%' ORDER BY A.id ASC LIMIT 360,15 [ RunTime:0.0010s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\AppServ\www\dangdang\Application\Home\Controller\IndexController.class.php 第 71 行.
+
+[ 2017-08-08T15:49:04+08:00 ] ::1 /dangdang/Index/search?page=25&goods_name=%E6%AC%A7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT A.id,A.goods_name,A.market_price,A.sales_price,A.classify,A.stock,A.state,B.id as bid,B.pid,B.images,B.time,B.first FROM shop_goods as A,shop_goods_images as B WHERE B.first=1 AND B.pid=A.id AND A.state=1 AND A.goods_name LIKE '%欧%' ORDER BY A.id ASC LIMIT 375,15 [ RunTime:0.0000s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\AppServ\www\dangdang\Application\Home\Controller\IndexController.class.php 第 71 行.
+
+[ 2017-08-08T15:49:04+08:00 ] ::1 /dangdang/Index/search?page=26&goods_name=%E6%AC%A7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT A.id,A.goods_name,A.market_price,A.sales_price,A.classify,A.stock,A.state,B.id as bid,B.pid,B.images,B.time,B.first FROM shop_goods as A,shop_goods_images as B WHERE B.first=1 AND B.pid=A.id AND A.state=1 AND A.goods_name LIKE '%欧%' ORDER BY A.id ASC LIMIT 390,15 [ RunTime:0.0000s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\AppServ\www\dangdang\Application\Home\Controller\IndexController.class.php 第 71 行.
+
+[ 2017-08-08T15:49:04+08:00 ] ::1 /dangdang/Index/search?page=27&goods_name=%E6%AC%A7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT A.id,A.goods_name,A.market_price,A.sales_price,A.classify,A.stock,A.state,B.id as bid,B.pid,B.images,B.time,B.first FROM shop_goods as A,shop_goods_images as B WHERE B.first=1 AND B.pid=A.id AND A.state=1 AND A.goods_name LIKE '%欧%' ORDER BY A.id ASC LIMIT 405,15 [ RunTime:0.0000s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\AppServ\www\dangdang\Application\Home\Controller\IndexController.class.php 第 71 行.
+
+[ 2017-08-08T15:49:05+08:00 ] ::1 /dangdang/Index/search?page=29&goods_name=%E6%AC%A7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT A.id,A.goods_name,A.market_price,A.sales_price,A.classify,A.stock,A.state,B.id as bid,B.pid,B.images,B.time,B.first FROM shop_goods as A,shop_goods_images as B WHERE B.first=1 AND B.pid=A.id AND A.state=1 AND A.goods_name LIKE '%欧%' ORDER BY A.id ASC LIMIT 435,15 [ RunTime:0.0030s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\AppServ\www\dangdang\Application\Home\Controller\IndexController.class.php 第 71 行.
+
+[ 2017-08-08T15:49:05+08:00 ] ::1 /dangdang/Index/search?page=28&goods_name=%E6%AC%A7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT A.id,A.goods_name,A.market_price,A.sales_price,A.classify,A.stock,A.state,B.id as bid,B.pid,B.images,B.time,B.first FROM shop_goods as A,shop_goods_images as B WHERE B.first=1 AND B.pid=A.id AND A.state=1 AND A.goods_name LIKE '%欧%' ORDER BY A.id ASC LIMIT 420,15 [ RunTime:0.0010s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\AppServ\www\dangdang\Application\Home\Controller\IndexController.class.php 第 71 行.
+
+[ 2017-08-08T15:49:05+08:00 ] ::1 /dangdang/Index/search?page=30&goods_name=%E6%AC%A7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT A.id,A.goods_name,A.market_price,A.sales_price,A.classify,A.stock,A.state,B.id as bid,B.pid,B.images,B.time,B.first FROM shop_goods as A,shop_goods_images as B WHERE B.first=1 AND B.pid=A.id AND A.state=1 AND A.goods_name LIKE '%欧%' ORDER BY A.id ASC LIMIT 450,15 [ RunTime:0.0010s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\AppServ\www\dangdang\Application\Home\Controller\IndexController.class.php 第 71 行.
+
+[ 2017-08-08T15:49:05+08:00 ] ::1 /dangdang/Index/search?page=31&goods_name=%E6%AC%A7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT A.id,A.goods_name,A.market_price,A.sales_price,A.classify,A.stock,A.state,B.id as bid,B.pid,B.images,B.time,B.first FROM shop_goods as A,shop_goods_images as B WHERE B.first=1 AND B.pid=A.id AND A.state=1 AND A.goods_name LIKE '%欧%' ORDER BY A.id ASC LIMIT 465,15 [ RunTime:0.0000s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\AppServ\www\dangdang\Application\Home\Controller\IndexController.class.php 第 71 行.
+
+[ 2017-08-08T15:49:06+08:00 ] ::1 /dangdang/Index/search?page=32&goods_name=%E6%AC%A7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT A.id,A.goods_name,A.market_price,A.sales_price,A.classify,A.stock,A.state,B.id as bid,B.pid,B.images,B.time,B.first FROM shop_goods as A,shop_goods_images as B WHERE B.first=1 AND B.pid=A.id AND A.state=1 AND A.goods_name LIKE '%欧%' ORDER BY A.id ASC LIMIT 480,15 [ RunTime:0.0000s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\AppServ\www\dangdang\Application\Home\Controller\IndexController.class.php 第 71 行.
+
+[ 2017-08-08T15:49:07+08:00 ] ::1 /dangdang/Index/search?page=33&goods_name=%E6%AC%A7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SELECT A.id,A.goods_name,A.market_price,A.sales_price,A.classify,A.stock,A.state,B.id as bid,B.pid,B.images,B.time,B.first FROM shop_goods as A,shop_goods_images as B WHERE B.first=1 AND B.pid=A.id AND A.state=1 AND A.goods_name LIKE '%欧%' ORDER BY A.id ASC LIMIT 495,15 [ RunTime:0.0000s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\AppServ\www\dangdang\Application\Home\Controller\IndexController.class.php 第 71 行.
+
+[ 2017-08-08T15:49:09+08:00 ] ::1 /dangdang/Index/search?page=34&goods_name=%E6%AC%A7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT A.id,A.goods_name,A.market_price,A.sales_price,A.classify,A.stock,A.state,B.id as bid,B.pid,B.images,B.time,B.first FROM shop_goods as A,shop_goods_images as B WHERE B.first=1 AND B.pid=A.id AND A.state=1 AND A.goods_name LIKE '%欧%' ORDER BY A.id ASC LIMIT 510,15 [ RunTime:0.0010s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\AppServ\www\dangdang\Application\Home\Controller\IndexController.class.php 第 71 行.
+
+[ 2017-08-08T15:49:09+08:00 ] ::1 /dangdang/Index/search?page=35&goods_name=%E6%AC%A7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT A.id,A.goods_name,A.market_price,A.sales_price,A.classify,A.stock,A.state,B.id as bid,B.pid,B.images,B.time,B.first FROM shop_goods as A,shop_goods_images as B WHERE B.first=1 AND B.pid=A.id AND A.state=1 AND A.goods_name LIKE '%欧%' ORDER BY A.id ASC LIMIT 525,15 [ RunTime:0.0010s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\AppServ\www\dangdang\Application\Home\Controller\IndexController.class.php 第 71 行.
+
+[ 2017-08-08T15:49:35+08:00 ] ::1 /dangdang/Index/search?page=36&goods_name=%E6%AC%A7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT A.id,A.goods_name,A.market_price,A.sales_price,A.classify,A.stock,A.state,B.id as bid,B.pid,B.images,B.time,B.first FROM shop_goods as A,shop_goods_images as B WHERE B.first=1 AND B.pid=A.id AND A.state=1 AND A.goods_name LIKE '%欧%' ORDER BY A.id ASC LIMIT 540,15 [ RunTime:0.0000s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\AppServ\www\dangdang\Application\Home\Controller\IndexController.class.php 第 71 行.
+

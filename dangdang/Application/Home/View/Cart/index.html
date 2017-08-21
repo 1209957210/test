@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>购物车</title>
+    <include file="Public/head"/>
+    <include file="Public/js"/>
+</head>
+<body class="page woocommerce-cart woocommerce-page ">
+<div class="body-wrapper theme-clearfix">
+   <include file="Public/header"/>
+    <include file="Public/nav"/>
+
+    <div class="container">
+        <div class="row">
+            <div id="contents" role="main" class="main-page col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="page type-page status-publish hentry">
+                    <div class="entry-content">
+                        <div class="entry-summary">
+                            <div class="woocommerce">
+                                <form action="__ROOT__/Order/index.html" method="post" id="form">
+                                    <table class="shop_table shop_table_responsive cart text-muted" cellspacing="0">
+                                        <thead>
+                                        <tr>
+                                            <th class="product-remove">编辑</th>
+                                            <th class="product-thumbnail">商品</th>
+                                            <th class="product-name">名称</th>
+                                            <th class="product-name">颜色</th>
+                                            <th class="product-name">尺码</th>
+                                            <th class="product-price">单价</th>
+                                            <th class="product-quantity">数量</th>
+                                            <th class="product-subtotal" >小计</th>
+                                        </tr>
+                                        </thead>
+                                        <!--购物车商品信息-->
+                                        <tbody id="cart_content text-center">
+                                       <foreach name="arr" item="value" >
+                                           <!--<input type="hidden" name="cart_id[]" value="<{$value.cid}>"/>-->
+                                           <tr class='cart_item' id="goods-<{$value.cid}>">
+                                               <td class='product-remove'>
+                                                   <input type="checkbox" id="check-<{$value.cid}>" value="<{$value.cid}>" onchange="check(this,'<{$value.sales_price}>','<{$value.count}>','<{$value.cid}>')" name="cart_id[]" class="check"/>
+                                                   <!--<a href="JavaScript:del('<{$value.id}>','<{$value.color}>','<{$value.size}>')" class='remove' title='Remove this item'><i class='fa fa-times' aria-hidden='true'></i></a>-->
+                                               </td>
+                                               <td class='product-thumbnail'><a href="__ROOT__/Index/item/id/<{$value.id}>.html">
+                                               <img width='180' height='180' src='__PUBLIC__/Uploads/<{$value.time}>/<{$value.images}>' class='attachment-shop_thumbnail size-shop_thumbnail wp-post-image' alt="<{$value.goods_name}>">
+                                           </a>
+                                               </td>
+                                               <td class='product-name' data-title='Product'>
+                                               <a href="__ROOT__/Index/item/id/<{$value.id}>.html"><{$value.goods_name}></a>
+                                               </td>
+                                               <td class='product-price' data-title='Price'>
+                                                   <span class='woocommerce-Price-amount amount'><{$value.color}></span>
+                                               </td>
+                                               <td class='product-price' data-title='Price'>
+                                                   <span class='woocommerce-Price-amount amount'><{$value.size}></span>
+                                               </td>
+                                               <td class='product-price' data-title='Price'>
+                                                   <span class='woocommerce-Price-amount amount'>
+                                                       <span class='woocommerce-Price-currencySymbol'>￥</span><{$value.sales_price}></span>
+                                               </td>
+                                               <td class='product-quantity' data-title='Quantity'>
+                                                   <button type='button' onclick="num(this,'<{$value.id}>','<{$value.color}>','<{$value.size}>','<{$value.sales_price}>','<{$value.cid}>')" class='btn btn-default pull-left onclick'>-</button>
+                                                   <div class='quantity pull-left'>
+                                                       <input type='number' oninput="num(this,'<{$value.id}>','<{$value.color}>','<{$value.size}>','<{$value.sales_price}>','<{$value.cid}>')" id="num-<{$value.id}>-<{$value.color}>-<{$value.size}>" step='1' min='0' max='' name='' value='<{$value.count}>' title='数量' class='input-text qty text purchase_quantity' size='4' pattern='[0-9]*' inputmode='numeric'>
+                                                   </div>
+                                                   <button type='button' class='btn btn-default pull-left onclick' onclick="num(this,'<{$value.id}>','<{$value.color}>','<{$value.size}>','<{$value.sales_price}>','<{$value.cid}>')">+</button>
+                                               </td>
+                                               <td class='product-subtotal' data-title='Total'>
+                                                   <span class='woocommerce-Price-amount amount'>
+                                                       <span class='woocommerce-Price-currencySymbol'>￥</span>
+                                                       <span id="price-<{$value.id}>-<{$value.color}>-<{$value.size}>" class="sales-price">
+                                                           <php>$num=$value["sales_price"]*$value["count"];echo sprintf("%.2f",$num);</php>
+                                                       </span>
+                                                   </span>
+                                               </td>
+                                           </tr>
+                                       </foreach>
+                                       <tr class="cart-subtotal" style="background: #CCCCCC">
+                                           <td><input type="checkbox" value="1" name="checkAll" id="checkAll" onclick="check_All(this)"><label for="checkAll">全选</label></td>
+                                           <td>
+                                               <a href="JavaScript:del()" title='删除商品'><span>删除</span></a>
+                                           </td>
+                                           <td></td>
+                                           <td></td>
+                                           <td></td>
+                                           <td>
+                                               <span>合计：</span><span class="text-danger">￥</span><span id="subtotal" class="text-danger">
+                                               0.00
+                                                           <!--<php>$price='';foreach($arr as $key=>$val){$price+=$val['sales_price']*$val['count'];}echo sprintf('%.2f',$price); </php>-->
+                                                       </span>
+                                           </td>
+                                           <td>已选商品 <span style="color:red;" id="check-count">0</span> 件</td>
+                                           <td><button id="button" type="button" onclick="submit_form()" class="btn ">前往结算</button></td>
+                                       </tr>
+                                        </tbody>
+                                    </table>
+                                </form>
+                                <script type="text/javascript" language="JavaScript">
+                                    function submit_form() {
+                                       $(function () {
+                                           if($("input[class='check']:checked").length<1){
+                                               layer.msg('您还没有选择要结算的商品');
+                                           }else{
+                                               $("#form").submit();
+                                           }
+                                       });
+                                    }
+                                    //复选框
+                                    function check(obj,price,count,id){
+                                        $(function () {
+                                            $("#check-count").html($("input[class='check']:checked").length);
+                                        })
+                                        var total_price=$("#subtotal").html();
+                                        var url='__ROOT__/Cart/total_price';
+                                        var data={'id':id,'price':price};
+                                        //判断是否全部复选框已被选中，如果全被选中则给全选框添加checked属性
+                                        if($("input[class='check']:checked").length==$("input[class='check']").length){
+                                            $("#checkAll").prop('checked',true);
+                                            $("#subtotal").html("<php>$price='';foreach($arr as $key=>$val){$price+=$val['sales_price']*$val['count'];}echo sprintf('%.2f',$price); </php>");
+                                        }else{
+                                            //否则取消全选框checked属性
+                                            $("#checkAll").prop('checked',false);
+                                        }
+                                       if(obj.checked==true){
+                                           $.ajax({
+                                               'url':url,
+                                               'type':'get',
+                                               'data':data,
+                                               'dataType':'json',
+                                               'success':function (res) {
+                                                   //判断是否复选框已被选中，如果被选中则添加checked属性
+                                                   var price=parseFloat(eval("("+res+")"))*parseFloat(data.price);
+                                                   //并且改变总金额
+                                                   $("#subtotal").html((parseFloat(total_price)+parseFloat(price)).toFixed(2));
+                                               }
+                                           });
+
+                                       }else{
+                                           $.ajax({
+                                               'url':url,
+                                               'type':'get',
+                                               'data':data,
+                                               'dataType':'json',
+                                               'success':function (res) {
+                                                   //复选框取消选中状态，减去金额
+                                                   var price=parseFloat(eval("("+res+")"))*parseFloat(data.price);
+                                                   $("#subtotal").html((parseFloat(total_price)-parseFloat(price)).toFixed(2));
+                                               }
+                                           });
+                                       }
+                                    }
+                                    //全选
+                                    function check_All(obj) {
+
+                                        $(function () {
+                                       if(obj.checked==true ){
+                                           //全选框被点击触发选中状态，给所有复选框添加checked属性
+                                           $(".check").prop('checked',true);
+                                           //改变已选中商品数量，要放在checked状态已改变后，js是顺序执行的
+                                           $("#check-count").html($("input[class='check']:checked").length);
+                                           //并且改变总金额
+                                           $("#subtotal").html("<php>$price='';foreach($arr as $key=>$val){$price+=$val['sales_price']*$val['count'];}echo sprintf('%.2f',$price); </php>");
+                                       }else{
+                                           //全选框被点击触发取消选中状态，给所有复选框清除checked属性
+                                           $(".check").prop("checked",false);
+                                           //改变已选中商品数量，要放在checked状态已改变后，js是顺序执行的
+                                           $("#check-count").html($("input[class='check']:checked").length);
+                                           //并且改变总金额
+                                           $("#subtotal").html('0.00');
+                                       }
+                                        });
+                                    }
+                                    //修改商品数量
+                                    function num(obj,id,color,size,price,cid) {
+                                        var url='__ROOT__/Cart/count';
+                                        if($(obj).val()){
+                                            var symbol=$(obj).val();
+                                        }else{
+                                            var symbol=$(obj).text();
+                                        }
+                                        var data={'symbol':symbol,'id':id,'color':color,'size':size,'cid':cid};
+                                        if( $("#num-"+id+"-"+color+"-"+size).val()>1 || symbol=="+" || (!isNaN(symbol) && symbol>0)){
+                                            $.ajax({
+                                                url:url,
+                                                type:'get',
+                                                data:data,
+                                                dataType:'json',
+                                                success:function (str) {
+                                                    var obj=$("#check-"+data.cid);
+                                                    var obj=obj[0];
+                                                    if(str){
+                                                        if(symbol=="-"){
+                                                            //改变商品数量
+                                                            $("#num-"+id+"-"+color+"-"+size).val(parseInt($("#num-"+id+"-"+color+"-"+size).val())-parseInt(1))
+                                                            if(obj.checked==true){
+                                                                //改变商品总金额
+                                                                $("#subtotal").text((parseFloat($("#subtotal").text())-parseFloat(price)).toFixed(2));
+                                                            }
+                                                        }else if(symbol=="+"){
+                                                            //改变商品数量
+                                                            $("#num-"+id+"-"+color+"-"+size).val(parseInt($("#num-"+id+"-"+color+"-"+size).val())+parseInt(1));
+                                                            if(obj.checked==true){
+                                                                //改变商品总金额
+                                                                $("#subtotal").text((parseFloat($("#subtotal").text()) + parseFloat(price)).toFixed(2));
+                                                            }
+                                                        }else{
+                                                            if(obj.checked==true){
+                                                                //改变商品总金额,待解决
+//                                                                $("#subtotal").text((parseFloat($("#subtotal").text()) + parseFloat(price)).toFixed(2));
+                                                            }
+                                                        }
+                                                        //改变小计价格
+                                                        $("#price-"+id+"-"+color+"-"+size).text((parseFloat($("#num-"+id+"-"+color+"-"+size).val())*parseFloat(price)).toFixed(2));
+                                                    }else{
+                                                        layer.msg("修改失败");
+                                                    }
+                                                }
+                                            });
+                                        }
+                                        if($("#num-"+id+"-"+color+"-"+size).val()<1){
+                                            $("#num-"+id+"-"+color+"-"+size).val(1);
+                                        }
+                                    }
+//                                    删除商品
+                                    function del(){
+                                        $(function () {
+                                            var url='__ROOT__/Cart/del';
+                                            var data=$("#form").serialize();
+                                            $.ajax({
+                                                url:url,
+                                                type:'get',
+                                                data:data,
+                                                dataType:'json',
+                                                success:function (str) {
+                                                    if(str=='404'){
+                                                        layer.msg("删除失败");
+                                                    }else{
+                                                        var id=eval("("+str+")");
+                                                        $.each(id,function (i,n) {
+                                                            $("#goods-"+n).remove();
+                                                        });
+                                                        layer.msg("删除成功");
+                                                    }
+                                                }
+                                            });
+                                        });
+
+                                    }
+                                </script>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   <include file="Public/footer"/>
+</div>
+
+<!-- DIALOGS -->
+<div class="modal fade" id="search_form" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog block-popup-search-form">
+        <form role="search" method="get" class="form-search searchform" action="">
+            <input type="text" value="" name="s" class="search-query" placeholder="Enter your keyword..." />
+
+            <button type="submit" class="fa fa-search button-search-pro form-button"></button>
+
+            <a href="javascript:void(0)" title="Close" class="close close-search" data-dismiss="modal">X</a>
+        </form>
+    </div>
+</div>
+
+<div class="modal fade" id="login_form" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog block-popup-login">
+        <a href="javascript:void(0)" title="Close" class="close close-login" data-dismiss="modal">Close</a>
+
+        <div class="tt_popup_login">
+            <strong>Sign in Or Register</strong>
+        </div>
+
+        <form action="" method="post" class="login">
+            <div class="block-content">
+                <div class="col-reg registered-account">
+                    <div class="email-input">
+                        <input type="text" class="form-control input-text username" name="username" id="username" placeholder="Username" />
+                    </div>
+
+                    <div class="pass-input">
+                        <input class="form-control input-text password" type="password" placeholder="Password" name="password" id="password" />
+                    </div>
+
+                    <div class="ft-link-p">
+                        <a href="#" title="Forgot your password">Forgot your password?</a>
+                    </div>
+
+                    <div class="actions">
+                        <div class="submit-login">
+                            <input type="submit" class="button btn-submit-login" name="login" value="Login" />
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-reg login-customer">
+                    <h2>NEW HERE?</h2>
+
+                    <p class="note-reg">Registration is free and easy!</p>
+
+                    <ul class="list-log">
+                        <li>Faster checkout</li>
+
+                        <li>Save multiple shipping addresses</li>
+
+                        <li>View and track orders and more</li>
+                    </ul>
+
+                    <a href="create_account.html" title="Register" class="btn-reg-popup">Create an account</a>
+                </div>
+            </div>
+        </form>
+        <div class="clear"></div>
+    </div>
+</div>
+
+<a id="etrostore-totop" href="#"></a>
+<include file="Public/js2"/>
+
+</body>
+</html>
+

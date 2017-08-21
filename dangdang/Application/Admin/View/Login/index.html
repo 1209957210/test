@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>管理员登陆</title>
+	<include file="Public/head"/>
+</head>
+<body class="login-page">
+	<section class="login-contain">
+		<header>
+			<h1>管理员登录</h1>
+			<p>management system</p>
+		</header>
+		<form action="__CONTROLLER__/login" method="post">
+			<div class="form-content">
+				<ul>
+					<li>
+						<div class="form-group">
+							<label class="control-label">管理员账号：</label>
+							<input type="text" name="phone" placeholder="管理员账号" class="form-control form-underlined" id="adminName"/>
+						</div>
+					</li>
+					<li>
+						<div class="form-group">
+							<label class="control-label">管理员密码：</label>
+							<input type="password" name="password" placeholder="管理员密码" class="form-control form-underlined" id="adminPwd"/>
+						</div>
+					</li>
+					<li>
+						<button type="submit" class="btn btn-lg btn-block" id="entry">立即登录</button>
+					</li>
+					<li>
+						<p class="btm-info">©Copyright 2017-2018 <a href="#" target="_blank" title="DeathGhost">DeathGhost.cn</a></p>
+						<address class="btm-info">广东省广州市</address>
+					</li>
+				</ul>
+			</div>
+		</form>
+	</section>
+</body>
+</html>

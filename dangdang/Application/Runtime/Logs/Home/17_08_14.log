@@ -1,0 +1,566 @@
+[ 2017-08-14T00:00:13+08:00 ] 127.0.0.1 /Site/add_site
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shop_user_sites` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `shop_user_sites` WHERE `user_id` = 1 AND `state` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `shop_user_sites` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate E:\AppServ\www\dangdang\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\AppServ\www\dangdang\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `shop_user_sites` (`province`,`city`,`region`,`address`,`zip_code`,`name`,`phone`,`state`,`user_id`) VALUES ('120000','120100','120101','hbh','0','lizehui','1234','1','1') [ RunTime:0.0000s ]
+
+[ 2017-08-14T00:00:15+08:00 ] 127.0.0.1 /Site/site.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-14T00:00:15+08:00 ] 127.0.0.1 /dangdang/Public/Bootstrap/images/icons/logo-orange.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-14T00:00:15+08:00 ] 127.0.0.1 /Public/Uploads/2017-06-26/5951105e910c7.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-14T00:00:16+08:00 ] 127.0.0.1 /Login/getLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-14T00:00:16+08:00 ] 127.0.0.1 /Cart/number_count.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shop_cart` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `shop_cart` WHERE ( user_id=1 AND state=1 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-08-14T00:00:16+08:00 ] 127.0.0.1 /Site/site.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-14T00:00:16+08:00 ] 127.0.0.1 /dangdang/Public/Bootstrap/images/icons/logo-orange.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-14T00:00:16+08:00 ] 127.0.0.1 /Public/Uploads/2017-06-26/5951105e910c7.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-14T00:00:16+08:00 ] 127.0.0.1 /Login/getLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-14T00:00:16+08:00 ] 127.0.0.1 /Cart/number_count.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shop_cart` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `shop_cart` WHERE ( user_id=1 AND state=1 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-08-14T00:00:17+08:00 ] 127.0.0.1 /Site/site.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-14T00:00:17+08:00 ] 127.0.0.1 /dangdang/Public/Bootstrap/images/icons/logo-orange.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-14T00:00:17+08:00 ] 127.0.0.1 /Public/Uploads/2017-06-26/5951105e910c7.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-14T00:00:17+08:00 ] 127.0.0.1 /Login/getLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-14T00:00:17+08:00 ] 127.0.0.1 /Cart/number_count.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shop_cart` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `shop_cart` WHERE ( user_id=1 AND state=1 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-08-14T00:00:18+08:00 ] 127.0.0.1 /Site/add_site
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_user_sites` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `shop_user_sites` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate E:\AppServ\www\dangdang\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\AppServ\www\dangdang\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `shop_user_sites` (`province`,`city`,`region`,`address`,`zip_code`,`name`,`phone`,`user_id`) VALUES ('0','0','0','','0','','','1') [ RunTime:0.0000s ]
+
+[ 2017-08-14T00:00:19+08:00 ] 127.0.0.1 /Site/add_site
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_user_sites` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `shop_user_sites` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.0156s ]
+NOTIC: [8] Undefined index: validate E:\AppServ\www\dangdang\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\AppServ\www\dangdang\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `shop_user_sites` (`province`,`city`,`region`,`address`,`zip_code`,`name`,`phone`,`user_id`) VALUES ('0','0','0','','0','','','1') [ RunTime:0.0000s ]
+
+[ 2017-08-14T00:00:19+08:00 ] 127.0.0.1 /Site/add_site
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shop_user_sites` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `shop_user_sites` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate E:\AppServ\www\dangdang\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\AppServ\www\dangdang\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `shop_user_sites` (`province`,`city`,`region`,`address`,`zip_code`,`name`,`phone`,`user_id`) VALUES ('0','0','0','','0','','','1') [ RunTime:0.0000s ]
+
+[ 2017-08-14T00:00:19+08:00 ] 127.0.0.1 /Site/add_site
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shop_user_sites` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `shop_user_sites` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate E:\AppServ\www\dangdang\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\AppServ\www\dangdang\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `shop_user_sites` (`province`,`city`,`region`,`address`,`zip_code`,`name`,`phone`,`user_id`) VALUES ('0','0','0','','0','','','1') [ RunTime:0.0000s ]
+
+[ 2017-08-14T00:00:19+08:00 ] 127.0.0.1 /Site/add_site
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_user_sites` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `shop_user_sites` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate E:\AppServ\www\dangdang\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\AppServ\www\dangdang\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `shop_user_sites` (`province`,`city`,`region`,`address`,`zip_code`,`name`,`phone`,`user_id`) VALUES ('0','0','0','','0','','','1') [ RunTime:0.0000s ]
+
+[ 2017-08-14T00:00:20+08:00 ] 127.0.0.1 /Site/add_site
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shop_user_sites` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `shop_user_sites` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate E:\AppServ\www\dangdang\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\AppServ\www\dangdang\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `shop_user_sites` (`province`,`city`,`region`,`address`,`zip_code`,`name`,`phone`,`user_id`) VALUES ('0','0','0','','0','','','1') [ RunTime:0.0010s ]
+
+[ 2017-08-14T00:00:21+08:00 ] 127.0.0.1 /Site/site.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-14T00:00:21+08:00 ] 127.0.0.1 /dangdang/Public/Bootstrap/images/icons/logo-orange.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-14T00:00:21+08:00 ] 127.0.0.1 /Public/Uploads/2017-06-26/5951105e910c7.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-14T00:00:21+08:00 ] 127.0.0.1 /Login/getLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-14T00:00:21+08:00 ] 127.0.0.1 /Cart/number_count.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shop_cart` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `shop_cart` WHERE ( user_id=1 AND state=1 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-08-14T00:01:15+08:00 ] 127.0.0.1 /Site/site.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-14T00:01:15+08:00 ] 127.0.0.1 /dangdang/Public/Bootstrap/images/icons/logo-orange.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-14T00:01:15+08:00 ] 127.0.0.1 /Public/Uploads/2017-06-26/5951105e910c7.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-14T00:01:15+08:00 ] 127.0.0.1 /Login/getLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-14T00:01:15+08:00 ] 127.0.0.1 /Cart/number_count.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_cart` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `shop_cart` WHERE ( user_id=1 AND state=1 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-08-14T00:01:20+08:00 ] 127.0.0.1 /Site/add_site
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_user_sites` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `shop_user_sites` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate E:\AppServ\www\dangdang\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\AppServ\www\dangdang\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `shop_user_sites` (`province`,`city`,`region`,`address`,`zip_code`,`name`,`phone`,`user_id`) VALUES ('0','0','0','','0','','','1') [ RunTime:0.0000s ]
+
+[ 2017-08-14T00:01:31+08:00 ] 127.0.0.1 /Site/add_site
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shop_user_sites` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `shop_user_sites` WHERE `user_id` = 1 AND `state` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `shop_user_sites` SET `state`='0' WHERE `user_id` = 1 AND `state` = 1 [ RunTime:0.0000s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `shop_user_sites` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate E:\AppServ\www\dangdang\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\AppServ\www\dangdang\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `shop_user_sites` (`province`,`city`,`region`,`address`,`zip_code`,`name`,`phone`,`state`,`user_id`) VALUES ('0','0','0','','0','','yyy','1','1') [ RunTime:0.0000s ]
+
+[ 2017-08-14T00:01:32+08:00 ] 127.0.0.1 /Site/site.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-14T00:01:32+08:00 ] 127.0.0.1 /dangdang/Public/Bootstrap/images/icons/logo-orange.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-14T00:01:32+08:00 ] 127.0.0.1 /Public/Uploads/2017-06-26/5951105e910c7.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-14T00:01:32+08:00 ] 127.0.0.1 /Login/getLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-14T00:01:32+08:00 ] 127.0.0.1 /Cart/number_count.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_cart` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `shop_cart` WHERE ( user_id=1 AND state=1 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-08-14T00:02:25+08:00 ] 127.0.0.1 /Site/site.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-14T00:02:25+08:00 ] 127.0.0.1 /dangdang/Public/Bootstrap/images/icons/logo-orange.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-14T00:02:25+08:00 ] 127.0.0.1 /Public/Uploads/2017-06-26/5951105e910c7.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-14T00:02:25+08:00 ] 127.0.0.1 /Login/getLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-14T00:02:25+08:00 ] 127.0.0.1 /Cart/number_count.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shop_cart` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `shop_cart` WHERE ( user_id=1 AND state=1 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-08-14T00:02:25+08:00 ] 127.0.0.1 /Site/site.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-14T00:02:25+08:00 ] 127.0.0.1 /dangdang/Public/Bootstrap/images/icons/logo-orange.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-14T00:02:25+08:00 ] 127.0.0.1 /Public/Uploads/2017-06-26/5951105e910c7.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-14T00:02:26+08:00 ] 127.0.0.1 /Login/getLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-14T00:02:26+08:00 ] 127.0.0.1 /Cart/number_count.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shop_cart` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `shop_cart` WHERE ( user_id=1 AND state=1 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-08-14T00:02:27+08:00 ] 127.0.0.1 /Site/del_site?id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shop_user_sites` [ RunTime:0.0010s ]
+SQL: DELETE FROM `shop_user_sites` WHERE ( id=8 ) [ RunTime:0.0000s ]
+
+[ 2017-08-14T00:02:29+08:00 ] 127.0.0.1 /Site/del_site?id=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_user_sites` [ RunTime:0.0010s ]
+SQL: DELETE FROM `shop_user_sites` WHERE ( id=7 ) [ RunTime:0.0000s ]
+
+[ 2017-08-14T00:02:29+08:00 ] 127.0.0.1 /Site/del_site?id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_user_sites` [ RunTime:0.0010s ]
+SQL: DELETE FROM `shop_user_sites` WHERE ( id=6 ) [ RunTime:0.0000s ]
+
+[ 2017-08-14T00:02:30+08:00 ] 127.0.0.1 /Site/del_site?id=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_user_sites` [ RunTime:0.0010s ]
+SQL: DELETE FROM `shop_user_sites` WHERE ( id=5 ) [ RunTime:0.0000s ]
+
+[ 2017-08-14T00:02:31+08:00 ] 127.0.0.1 /Site/del_site?id=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_user_sites` [ RunTime:0.0000s ]
+SQL: DELETE FROM `shop_user_sites` WHERE ( id=4 ) [ RunTime:0.0000s ]
+
+[ 2017-08-14T00:02:33+08:00 ] 127.0.0.1 /Site/del_site?id=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_user_sites` [ RunTime:0.0000s ]
+SQL: DELETE FROM `shop_user_sites` WHERE ( id=9 ) [ RunTime:0.0010s ]
+
+[ 2017-08-14T00:02:34+08:00 ] 127.0.0.1 /Site/del_site?id=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_user_sites` [ RunTime:0.0010s ]
+SQL: DELETE FROM `shop_user_sites` WHERE ( id=3 ) [ RunTime:0.0000s ]
+
+[ 2017-08-14T00:02:35+08:00 ] 127.0.0.1 /Site/del_site?id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_user_sites` [ RunTime:0.0000s ]
+SQL: DELETE FROM `shop_user_sites` WHERE ( id=2 ) [ RunTime:0.0010s ]
+
+[ 2017-08-14T00:06:08+08:00 ] 127.0.0.1 /Site/site.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-14T00:06:08+08:00 ] 127.0.0.1 /dangdang/Public/Bootstrap/images/icons/logo-orange.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-14T00:06:08+08:00 ] 127.0.0.1 /Public/Uploads/2017-06-26/5951105e910c7.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-14T00:06:08+08:00 ] 127.0.0.1 /Login/getLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-14T00:06:08+08:00 ] 127.0.0.1 /Cart/number_count.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_cart` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `shop_cart` WHERE ( user_id=1 AND state=1 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-08-14T08:22:30+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-14T08:22:31+08:00 ] 127.0.0.1 /dangdang/Public/Bootstrap/images/icons/logo-orange.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-14T08:22:31+08:00 ] 127.0.0.1 /Login/getLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-14T08:22:31+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-14T08:24:17+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-14T08:24:17+08:00 ] 127.0.0.1 /dangdang/Public/Bootstrap/images/icons/logo-orange.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-14T08:24:17+08:00 ] 127.0.0.1 /Login/getLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-14T08:24:26+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-14T08:24:35+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-14T08:27:32+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-14T08:27:32+08:00 ] 127.0.0.1 /dangdang/Public/Bootstrap/images/icons/logo-orange.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-14T08:27:32+08:00 ] 127.0.0.1 /Login/getLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+

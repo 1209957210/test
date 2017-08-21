@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>结算中心</title>
+    <include file="Public/head"/>
+    <include file="Public/js"/>
+</head>
+<body>
+<include file="Public/header"/>
+<div class="container text-muted">
+    <form action="__ROOT__/Home/Order/close_an_account.html" method="post">
+        <div style="padding-top:10px;"><h4>填写并核对订单信息</h4></div>
+        <div style="padding-top:10px;">
+            <div>
+                <span class="pull-left"><h5>确认收货地址</h5></span>
+                <span class="pull-right "><a href="__ROOT__/Home/Site/site.html" class="text-primary "><h5>管理收货地址</h5></a></span>
+            </div>
+            <hr/>
+            <ul class="list-group" >
+                <foreach name="site" item="val">
+                    <eq name="val.state" value="1">
+                        <li class="list-group-item">
+                            <input type="radio" checked="checked" id="<{$val.id}>" name="site_id" value="<{$val.id}>">
+                            <label for="<{$val.id}>">
+                                <{$val.province.name}> <{$val.city.name}> <{$val.region.name}> <{$val.address}> （<{$val.name}> 收）<{$val.phone}>
+                            </label>
+                            <span class="pull-right">默认收货地址</span>
+                        </li>
+                        <else/>
+                        <li class="list-group-item">
+                            <input  type="radio" id="<{$val.id}>" name="site_id" value="<{$val.id}>">
+                            <label for="<{$val.id}>">
+                                <{$val.province.name}> <{$val.city.name}> <{$val.region.name}> <{$val.address}> （<{$val.name}> 收）<{$val.phone}>
+                            </label>
+                        </li>
+                    </eq>
+
+                </foreach>
+            </ul>
+        </div>
+        <div>
+            <span>选择付款方式</span>
+            <ul class="nav nav-pills">
+                <li role="presentation" class="active">
+                    <div  class="111">
+                        <input onchange="gaibian(this)" checked="checked" class="hidden" type="radio" id="alipay" name="pay" value="alipay">
+                        <label for="alipay">
+                            <img src="__PUBLIC__/Images/zf/2410b912c8fcc3cef418db839845d688d53f20a1.png" alt="支付宝支付"/>
+                        </label>
+                    </div></li>
+                <li role="presentation">
+                    <div id="zfbs" class="zfb">
+                        <input class="hidden" onchange="gaibian(this)" type="radio" id="WecChat" value="wechat" name="pay">
+                        <label for="WecChat">
+                            <img src="__PUBLIC__/Images/zf/2410b912c8fcc3cef418db839845d688d53f20a1.png" alt="微信支付"/>
+                        </label>
+                    </div></li>
+            </ul>
+
+
+        </div>
+        <hr/>
+        <div>
+            <span class=""><h5>确认订单信息</h5></span>
+        </div>
+        <hr/>
+        <div class="row">
+            <div id="contents" role="main" class="main-page col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="page type-page status-publish hentry">
+                    <div class="entry-content">
+                        <div class="entry-summary">
+                            <div class="woocommerce">
+                                <table class="shop_table shop_table_responsive cart text-muted" cellspacing="0">
+                                    <thead>
+                                    <tr>
+                                        <th class="product-thumbnail">商品</th>
+                                        <th colspan="2" class="product-name">名称</th>
+                                        <th class="product-name">商品属性</th>
+                                        <th class="product-price">单价</th>
+                                        <th class="product-quantity">数量</th>
+                                        <th class="product-quantity">优惠方式</th>
+                                        <th class="product-subtotal" >小计</th>
+                                    </tr>
+                                    </thead>
+                                    <!--购物车商品信息-->
+                                    <tbody id="cart_content text-center">
+                                    <foreach name="arr" item="value">
+                                        <input class="id" type="hidden" name="cart_id[]" value="<{$value.cid}>"/>
+                                        <tr class='cart_item' id="goods-<{$value.id}>-<{$value.color}>-<{$value.size}>">
+                                            <td class='product-thumbnail'>
+                                                <img width='180' height='180' src='__PUBLIC__/Uploads/<{$value.time}>/<{$value.images}>' class='attachment-shop_thumbnail size-shop_thumbnail wp-post-image' alt="<{$value.goods_name}>">
+                                            </td>
+                                            <td colspan="2" class='product-name' data-title='Product'>
+                                                <span><{$value.goods_name}></span>
+                                            </td>
+                                            <td class='product-price' data-title='color-size'>
+                                                <span class='woocommerce-Price-amount amount'><{$value.color}><{$value.size}></span>
+                                            </td>
+                                            <td class='product-price' data-title='Price'>
+                                                   <span class='woocommerce-Price-amount amount'>
+                                                       <span class='woocommerce-Price-currencySymbol'>￥</span><{$value.sales_price}></span>
+                                            </td>
+                                            <td class='product-quantity' data-title='Quantity'>
+                                                <input type="hidden" name="count[]" value="<{$value.count}>">
+                                                <span class="text-muted text-center"><{$value.count}></span>
+                                                <!--<input type='number' onchange="num(this,'<{$value.id}>','<{$value.color}>','<{$value.size}>','<{$value.sales_price}>')" id="num-<{$value.id}>-<{$value.color}>-<{$value.size}>" step='1' min='0' max='' name='' value='<{$value.count}>' title='数量' class='input-text qty text purchase_quantity' size='4' pattern='[0-9]*' inputmode='numeric'>-->
+                                            </td>
+                                            <td class='product-quantity' data-title='Quantity'>
+                                                <span class="text-muted text-center">无优惠</span>
+                                                <!--<input type='number' onchange="num(this,'<{$value.id}>','<{$value.color}>','<{$value.size}>','<{$value.sales_price}>')" id="num-<{$value.id}>-<{$value.color}>-<{$value.size}>" step='1' min='0' max='' name='' value='<{$value.count}>' title='数量' class='input-text qty text purchase_quantity' size='4' pattern='[0-9]*' inputmode='numeric'>-->
+                                            </td>
+                                            <td class='product-subtotal' data-title='Total'>
+                                                   <span class='woocommerce-Price-amount amount'>
+                                                       <span class='woocommerce-Price-currencySymbol'>￥</span>
+                                                       <span id="price-<{$value.id}>-<{$value.color}>-<{$value.size}>" class="sales-price">
+                                                           <php>$num=$value["sales_price"]*$value["count"];echo sprintf("%.2f",$num);</php>
+                                                       </span>
+                                                   </span>
+                                            </td>
+                                        </tr>
+                                    </foreach>
+                                    <tr class="cart-subtotal" style="background: #CCCCCC">
+                                        <td><!--<td><input type="checkbox" name="checkAll" id="checkAll" onclick="check_All(this)"><label for="checkAll">全选</label></td>--></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>
+                                            <span>合计：</span><span class="text-danger">￥</span><span id="subtotal" class="text-danger">
+                                                            <php>
+                                                       $price='';
+                                                       foreach($arr as $key=>$val){
+                                                              $price+=$val['sales_price']*$val['count'];
+                                                       }
+                                                       echo sprintf("%.2f",$price);
+                                                   </php>
+                                            <input type="hidden" name="total_price" value="<php>$price='';foreach($arr as $key=>$val){$price+=$val['sales_price']*$val['count'];}echo sprintf('%.2f',$price);</php>">
+                                                       </span>
+                                        </td>
+                                        <td>已选商品 <span style="color:red;"><php>$src=count($arr);echo $src;</php></span> 件</td>
+                                        <td><button type="submit" onclick="close_an_account()" class="btn ">前往结算</button></td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+<include file="Public/footer"/>
+<script>
+    //    function close_an_account() {
+    //        $(function () {
+    //            alert($("input[type='hidden']").length);
+    //            alert($('#subtotal').text());
+    //        });
+    //    }
+    //默认支付方式，添加选中样式
+    $(function () {
+        $("#alipay").parent().css('border','1px red solid').addClass("glyphicon glyphicon-ok");
+    });
+    function gaibian(obj) {
+        $(function () {
+            if(obj.checked){
+                //删除选中样式
+                $(".hidden").parent().css("border",'none').removeClass("glyphicon glyphicon-ok");
+                //添加选中样式
+                $(obj).parent().css('border','1px red solid').addClass("glyphicon glyphicon-ok");
+
+            }
+        });
+    }
+</script>
+</body>
+</html>

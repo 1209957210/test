@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>用户中心</title>
+    <include file="Public/head"/>
+    <include file="Public/js"/>
+</head>
+<body>
+<include file="Public/header"/>
+<script>
+//    layer.msg('hello');
+</script>
+
+<div class="container" style="padding-top: 20px;">
+    <div class="">
+        <include file="Public/user_nav"/>
+        <div class="pull-left">
+            <table class="table text-center" style="border:1px #CCCCCC solid;width:800px;">
+                <tr style="background: #CCCCCC">
+                    <td colspan="2">
+                        <a href="" class="navbar-brand text-muted"><php>echo $_SESSION['nickname'];</php></a>
+                    </td>
+                    <td><a href="" class="navbar-brand text-muted">收货地址</a></td>
+                    <td><a href="" class="navbar-brand text-muted">我的优惠</a></td>
+                    <td><a href="" class="navbar-brand text-muted">购物车</a></td>
+                </tr>
+                <tr class="">
+                    <td style="border:1px #CCCCCC solid;"><a href="__ROOT__/Order/index.html" id="cart_count">待付款</a></td>
+                    <td style="border:1px #CCCCCC solid;">待发货</td>
+                    <td style="border:1px #CCCCCC solid;">待收货</td>
+                    <td style="border:1px #CCCCCC solid;">待评价</td>
+                    <td style="border:1px #CCCCCC solid;">退货</td>
+                </tr>
+            </table>
+            <script language="JavaScript" type="text/javascript">
+                $(function () {
+                    var url='__ROOT__/Cart/cart_count';
+                    $.ajax({
+                        'url':url,
+                        'type':'get',
+                        'success':function (res) {
+                           if(!isNaN(res)){
+                               $("#cart_count").append("<span style='background: orangered;' class='badge'>"+res+"</span>");
+                           }
+                        }
+                    });
+                });
+            </script>
+            <table class="table text-center" style="border:1px #CCCCCC solid;">
+                <tr style="background: #CCCCCC">
+                    <td colspan="5">
+                        <div class="pull-left">
+                            <span class="glyphicon glyphicon-plane"></span>
+                        </div>
+                        <a href="" class="pull-left text-muted">我的物流</a>
+                    </td>
+                </tr>
+                <tr class="">
+                    <td><img src="" alt=""></td>
+                    <td colspan="3">
+                        <p>快件已签收,感谢您使用中通快递!</p>
+                        <p>2017-07-19 13:30:32 <a href="">查看物流明细</a></p>
+                    </td>
+                    <td><button class="btn" type="button">确认收货</button></td>
+                </tr>
+            </table>
+            <!--<ul class="nav nav-pills">-->
+            <!--<li  class="pull-left">"/></div></li>-->
+            <!--<li  class="pull-left">name</li>-->
+            <!--<li class="pull-left"><a href="#">编辑资料</a></li>-->
+            <!--</ul>-->
+        </div>
+        <div class="">
+
+        </div>
+    </div>
+
+</div>
+<include file="Public/footer"/>
+</body>
+</html>

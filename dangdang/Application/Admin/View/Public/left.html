@@ -1,0 +1,49 @@
+<div class="side-nav">
+    <div class="side-logo">
+        <div class="logo">
+				<span class="logo-ico">
+					<i class="i-l-1"></i>
+					<i class="i-l-2"></i>
+					<i class="i-l-3"></i>
+				</span>
+            <strong>后台管理系统</strong>
+        </div>
+    </div>
+
+    <nav class="side-menu content mCustomScrollbar" data-mcs-theme="minimal-dark">
+        <ul>
+            <foreach name="arr" item="vo">
+                <eq name="vo.module" value="1">
+                <li>
+                    <dl>
+                            <eq name="vo.pid" value="0">
+                                <if condition="$vo.judge eq 1">
+                                    <dt>
+                                        <!--一级下拉菜单-->
+                                        <i class="icon-columns"></i><{$vo.name}><i class="icon-angle-right"></i>
+                                    </dt>
+                                    <else/>
+                                    <dt>
+                                        <!--一级点击菜单-->
+                                        <a href="__ROOT__/Admin/<{$vo.controller}>/<{$vo.way}>.html" class=""><i class="icon-dashboard"></i><{$vo.name}></a>
+                                    </dt>
+                                </if>
+                            </eq>
+                        <!--二级菜单-->
+                        <foreach name="arr" item="vi">
+                            <eq name="vi.module" value="1">
+                                <eq name="vi.pid" value="$vo.id">
+                                    <dd>
+                                        <a href="__ROOT__/Admin/<{$vi.controller}>/<{$vi.way}>.html"><{$vi.name}></a>
+                                    </dd>
+                                </eq>
+                            </eq>
+                        </foreach>
+                    </dl>
+                </li>
+                </eq>
+            </foreach>
+        </ul>
+    </nav>
+    <footer class="side-footer">© DeathGhost 版权所有</footer>
+</div>

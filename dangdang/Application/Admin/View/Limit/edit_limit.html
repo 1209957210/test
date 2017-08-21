@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>编辑权限</title>
+    <include file="Public/head"/>
+    <style>
+        .pull-left{
+            float:left;
+        }
+        .pull-right{
+            float:right;
+        }
+    </style>
+    <!--<script src="__PUBLIC__/Bootstrap/js/bootstrap.min.js"></script>-->
+    <!--<link rel="stylesheet" href="__PUBLIC__/Bootstrap/css/bootstrap.min.css">-->
+</head>
+<body>
+<div class="main-wrap">
+    <include file="Public/left"/>
+    <div class="content-wrap">
+        <include file="Public/header"/>
+        <!--表单-->
+        <main class="main-cont content mCustomScrollbar" id="show_limit">
+            <div class="page-wrap">
+                <!--开始::内容-->
+                <section class="page-hd">
+                    <header>
+                        <h2 class="title">编辑权限</h2>
+                    </header>
+                    <a class="pull-left" href="__ROOT__/Admin/Limit/limit.html">添加权限</a>
+                    <hr>
+                </section>
+                <!--表格-->
+                <table  class="table table-bordered table-striped mb-15">
+                    <thead>
+                    <tr>
+                        <th>id</th>
+                        <th>权限名字</th>
+                        <th>控制器</th>
+                        <th>方法</th>
+                        <th>模块</th>
+                        <th>编辑权限</th>
+                        <th>删除权限</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <foreach name="limit" item="vo">
+                        <tr class="cen" id="limit-<{$vo.id}>">
+                            <td><{$vo.id}></td>
+                            <td><{$vo.name}></td>
+                            <td><{$vo.controller}></td>
+                            <td><{$vo.way}></td>
+                            <td>
+                                <eq name="vo.module" value="1">
+                                    菜单模块
+                                    <else/>
+                                    功能模块
+                                </eq>
+                            </td>
+                            <td><a href="__ROOT__/Admin/Limit/chmod/id/<{$vo.id}>.html" onclick="show_limit('<{$vo.id}>')" title="编辑" class="mr-5">编辑</a></td>
+                            <td>
+                                <a onclick="limit_del('<{$vo.id}>')" class="mr-5" title="删除">删除</a>
+                            </td>
+                        </tr>
+                    </foreach>
+                    </tbody>
+                </table>
+                <!--开始::结束-->
+            </div>
+        </main>
+        <include file="Public/bottom"/>
+    </div>
+</div>
+<script language="JavaScript" type="text/javascript">
+    function limit_del(id) {
+        $(function () {
+            var url='__ROOT__/Admin/Limit/del_limit.html';
+            $.ajax({
+                'url':url,
+                'data':{'id':id},
+                'type':'get',
+                'dataType':'json',
+                'success':function (res) {
+                    if(res=='success'){
+                        layer.msg('删除权限成功');
+                        $("#limit-"+id).remove();
+                    }else{
+                        layer.msg('删除权限失败');
+                    }
+                }
+            });
+        });
+    }
+</script>
+</body>
+</html>

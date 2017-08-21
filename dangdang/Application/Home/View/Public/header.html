@@ -1,0 +1,208 @@
+<!--header-->
+<header id="header" class="header header-style1">
+    <div class="header-top clearfix">
+        <div class="container">
+            <div class="rows">
+                <!-- SIDEBAR TOP MENU -->
+                <div class="pull-left top1">
+                    <div class="widget text-2 widget_text pull-left">
+                        <div class="widget-inner">
+                            <div class="textwidget">
+                                <div class="call-us"><span>联系电话: </span>0123-444-666654123</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--未登录-->
+                <div id="not_log_in" class="hidden">
+                    <div class="wrap-myacc pull-right">
+                        <div class="sidebar-account pull-left">
+                            <a href="__ROOT__/Login/index.html"><div class="account-title">登陆</div></a>
+                        </div>
+                        <div class="pull-left top2">
+                            <div class="widget-1 widget-first widget nav_menu-2 widget_nav_menu">
+                                <div class="widget-inner">
+                                    <ul  class="menu menu-checkout">
+                                        <li class="menu-checkout">
+                                            <a class="item-link" href="__ROOT__/Login/register.html">
+                                                <span class="menu-title">注册</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--已登录-->
+                <div id="have_logged_on" class="hidden pull-right">
+                    <div class="sidebar-account pull-left">
+                        <a href="javaScript:void(0)" onclick="login_out()"><div class="account-title">退出登陆</div></a>
+                    </div>
+                    <div class="pull-right top2">
+                        <div class="widget-1 widget-first widget nav_menu-2 widget_nav_menu">
+                            <div class="widget-inner">
+                                <ul  class="menu menu-checkout">
+                                    <li class="menu-checkout">
+                                        <a class="item-link" href="__ROOT__/User/index.html">
+                                            <span class="glyphicon glyphicon-user"></span><span>：</span><span id="nickname"></span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="header-mid clearfix">
+        <div class="container">
+            <div class="rows">
+                <!-- LOGO -->
+                <div class="etrostore-logo pull-left">
+                    <a href="__ROOT__/Index/index.html">
+                        <img src="/dangdang/Public/Bootstrap/images/icons/logo-orange.png" alt="Shoopy">
+                    </a>
+                </div>
+
+                <div class="mid-header pull-right">
+                    <div class="widget-1 widget-first widget sw_top-2 sw_top">
+                        <div class="widget-inner">
+                            <div class="top-form top-search">
+                                <div class="topsearch-entry">
+                                    <form method="get" action="__ROOT__/Index/search.html">
+                                        <div>
+                                            <input type="text" value="" name="goods_name" placeholder="搜索商品">
+                                            </div>
+                                            <button type="submit" title="Search" class="fa fa-search button-search-pro form-button"></button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="widget sw_top-3 sw_top pull-left">
+                        <div class="widget-inner">
+                            <div class="top-form top-form-minicart etrostore-minicart pull-left">
+                                    <div class="top-minicart-icon pull-right">
+                                        <a href="__ROOT__/Cart/index.html">
+                                        <i class="fa fa-shopping-cart"></i>
+                                    <a class="cart-contents" href="__ROOT__/Cart/index.html" title="购物车">
+                                        <span class="minicart-number number-count" id="number-count">0</span>
+                                    </a>
+                                        </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="header-bottom clearfix">
+        <div class="container">
+            <div class="rows">
+                <!-- Primary navbar -->
+                <div id="main-menu" class="main-menu">
+                    <nav id="primary-menu" class="primary-menu">
+                        <div class="navbar-inner navbar-inverse">
+                            <div class="resmenu-container">
+                                <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#ResMenuprimary_menu">
+                                    <span class="sr-only">Categories</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+
+                                <div id="ResMenuprimary_menu" class="collapse menu-responsive-wrapper">
+                                    <!--移动导航栏-->
+                                    <ul id="menu-primary-menu" class="etrostore_resmenu">
+                                        <li><a href="__ROOT__/Index/index.html" id="shop">首页</a></li>
+                                        <li><a href="__ROOT__/Cart/index.html">购物车</a></li>
+                                        <li><a href="__ROOT__/User/index.html">我的账号</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!--web导航栏-->
+                            <ul id="menu-primary-menu-1" class="nav nav-pills nav-mega etrostore-mega etrostore-menures">
+                                <li><a href="__ROOT__/Index/index.html">首页</a></li>
+                                <li><a href="__ROOT__/Cart/index.html">购物车</a></li>
+                                <li><a href="__ROOT__/User/index.html">我的账号</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+                <!-- /Primary navbar -->
+
+                <div class="top-form top-form-minicart etrostore-minicart pull-left">
+                    <div class="top-minicart-icon pull-right">
+                        <a href="__ROOT__/Cart/index.html"> <i class="fa fa-shopping-cart"></i></a>
+                        <a class="cart-contents" href="__ROOT__/Cart/index.html" title="View your shopping cart">
+                            <span class="minicart-number number-count">0</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<script language="JavaScript" type="text/javascript">
+    $(function () {
+        //获取是否登陆
+        var url='__ROOT__/Login/getLogin';
+        $.ajax({
+            'url':url,
+            'type':'get',
+            'success':function (res) {
+                if(res!='error'){
+                    $("#have_logged_on").removeClass('hidden').addClass('show');
+                    $("#nickname").text(eval("("+res+")").nickname);
+                    $("#not_log_in").removeClass('show').addClass('hidden');
+                    var url='__ROOT__/Cart/number_count.html';
+                    //获取已登录用户购物车商品数量
+                    $.ajax({
+                        'url':url,
+                        'type':'get',
+                        'success':function (res) {
+                            if(!isNaN(res)){
+                                $(".number-count").text(res);
+                            }else{
+                                $('.number_count').text(0);
+                            }
+                        }
+                    });
+                }else{
+                    $("#not_log_in").removeClass('hidden').addClass('show');
+                    $("#have_logged_on").removeClass('show').addClass('hidden');
+                }
+
+            }
+        });
+
+
+
+    });
+    //退出登陆
+    function login_out() {
+        $(function () {
+            $.ajax({
+                'url':'__ROOT__/Login/login_out.html',
+                'type':'get',
+                'dataType':'json',
+                'success':function (res) {
+                    if(res=='success'){
+                        $("#not_log_in").removeClass('hidden').addClass('show');
+                        $("#have_logged_on").removeClass('show').addClass('hidden');
+                    }else{
+                        layer.msg('退出登陆失败，请重新尝试');
+                    }
+                }
+                })
+        });
+    }
+</script>

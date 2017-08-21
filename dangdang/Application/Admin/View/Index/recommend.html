@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <include file="Public/head"/>
+</head>
+<body>
+<div class="main-wrap">
+    <include file="Public/left"/>
+    <div class="content-wrap">
+        <include file="Public/header"/>
+        <!--表单-->
+        <main class="main-cont content mCustomScrollbar">
+            <div class="page-wrap container-fluid">
+                <!--开始::内容-->
+                <section class="page-hd">
+                    <header>
+                        <h2 class="title">商品首页轮播图</h2>
+                        <p class="title-description">
+                            推荐商品
+                        </p>
+                    </header>
+                    <hr>
+                </section>
+                <!--表格-->
+                <table class="table table-container table-bordered mb-15">
+                    <thead>
+                    <tr>
+                        <th>id</th>
+                        <th>产品名称</th>
+                        <th>图片</th>
+                        <th>库存数量</th>
+                        <th>市场价</th>
+                        <th>销售价</th>
+                        <th>操作</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <foreach name="recommend" item="vo">
+                        <tr class="cen">
+                            <td><{$vo.id}></td>
+                            <td><a href="#/id/<{$vo.id}>"><{$vo.goods_name}></a></td>
+                            <td>
+                                <img class="img-responsive center-block" style="height:140px;" src="__PUBLIC__/Uploads/<php>echo date('Y-m-d',($vo['time']));</php>/<{$vo.images}>"/>
+                            </td>
+                            <td><{$vo.stock}></td>
+                            <td><{$vo.market_price}></td>
+                            <td><{$vo.sales_price}></td>
+                            <td>
+                                <a href="__CONTROLLER__/edit_goods2/id/<{$vo.id}>" title="编辑" class="mr-5">编辑</a>
+                                <a href="__CONTROLLER__/details/id/<{$vo.id}>" title="详情" class="mr-5">详情</a>
+                                <a onclick="set_delete(<{$vo.id}>)" class="mr-5" title="下架">下架</a>
+                            </td>
+                        </tr>
+                    </foreach>
+                    </tbody>
+                </table>
+                <!--开始::结束-->
+            </div>
+        </main>
+        <include file="Public/bottom"/>
+    </div>
+</div>
+<script type="text/javascript" language="JavaScript">
+    function set_delete(id){
+        var id={'id':id};
+        var url='__ROOT__/Admin/Sql/update';
+        $(function(){
+            $.ajax({
+                url:url,
+                data:id,
+                type:'get',
+                success:function (int){
+                    top.location.reload();
+                    int?layer.msg('下架成功'):layer.msg('下架失败');
+                }
+            });
+        });
+    }
+</script>
+</body>
+</html>

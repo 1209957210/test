@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>编辑管理员</title>
+    <include file="Public/head"/>
+</head>
+<body>
+<div class="main-wrap">
+    <include file="Public/left"/>
+    <div class="content-wrap">
+        <include file="Public/header"/>
+        <!--表单-->
+        <main class="main-cont content mCustomScrollbar">
+                <div class="page-wrap">
+                    <!--开始::内容-->
+                    <section class="page-hd">
+                        <header>
+                            <h2 class="title">编辑管理员</h2>
+                            <p class="title-description">
+                                <a href="__ROOT__/Admin/Index/add_admin.html">添加管理员</a>
+                            </p>
+                        </header>
+                        <hr>
+                    </section>
+                    <!--表格-->
+                    <table class="table table-bordered table-striped mb-15">
+                        <thead>
+                        <tr>
+                            <th>id</th>
+                            <th>名字</th>
+                            <th>职位</th>
+                            <th>性别</th>
+                            <th>手机</th>
+                            <th>修改</th>
+                            <th>删除</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                            <foreach name="admin_role" item="vo">
+                                <tr id="admin-<{$vo.id}>" class="cen">
+                                    <td><{$vo.id}></td>
+                                    <td><{$vo.name}></td>
+                                    <td><{$vo.role_name}></td>
+                                    <if condition="$vo.sex eq 1">
+                                        <td>男</td>
+                                        <else/>
+                                        <td>女</td>
+                                    </if>
+                                    <td><{$vo.phone}></td>
+                                    <td>
+                                        <a href="__ROOT__/Admin/Index/modified_admin/admin_role/<{$vo.id}>.html" title="修改" class="mr-5">修改</a>
+                                    </td>
+                                    <td>
+                                    <a onclick="set_delete('<{$vo.id}>')" class="mr-5" title="删除">删除</a>
+                                    </td>
+                                </tr>
+                            </foreach>
+                        </tbody>
+                    </table>
+                    <!--开始::结束-->
+                </div>
+        </main>
+        <include file="Public/bottom"/>
+    </div>
+</div>
+<script language="JavaScript" type="text/javascript">
+    <!--通过ajax删除管理员-->
+    function set_delete(id){
+        var get_id={'id':id};
+        $(function(){
+            $.ajax({
+               url:'__ROOT__/Admin/Sql/delete',
+               type:'get',
+               data:get_id,
+               success:function(set){
+                   if(set=='1'){
+                       $('#admin-'+id).remove();
+                       layer.msg('删除成功');
+                   }else{
+                       layer.msg('删除失败');
+                   }
+               },
+               error:function(set){
+                   layer.msg('删除失败');
+               }
+           });
+        });
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,1138 @@
+[ 2017-08-12T13:50:21+08:00 ] ::1 /dangdang/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-12T13:50:23+08:00 ] ::1 /dangdang/Login/getLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-12T13:53:48+08:00 ] ::1 /dangdang/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-12T13:53:48+08:00 ] ::1 /dangdang/Login/getLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-12T13:53:50+08:00 ] ::1 /dangdang/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-12T13:53:50+08:00 ] ::1 /dangdang/Login/getLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-12T13:54:06+08:00 ] ::1 /dangdang/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-12T13:54:07+08:00 ] ::1 /dangdang/Login/getLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-12T13:54:54+08:00 ] ::1 /dangdang/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-12T13:54:55+08:00 ] ::1 /dangdang/Login/getLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-12T13:54:56+08:00 ] ::1 /dangdang/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-12T13:54:56+08:00 ] ::1 /dangdang/Login/getLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-12T13:56:17+08:00 ] ::1 /dangdang/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-12T13:56:17+08:00 ] ::1 /dangdang/Login/getLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-12T13:57:58+08:00 ] ::1 /dangdang/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-12T13:57:59+08:00 ] ::1 /dangdang/Login/getLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-12T13:58:44+08:00 ] ::1 /dangdang/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-12T13:59:19+08:00 ] ::1 /dangdang/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-12T14:29:10+08:00 ] ::1 /dangdang/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-08-12T14:29:10+08:00 ] ::1 /dangdang/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-12T14:29:10+08:00 ] ::1 /dangdang/Login/getLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-12T14:29:15+08:00 ] ::1 /dangdang/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-12T14:29:16+08:00 ] ::1 /dangdang/Login/getLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-12T14:29:44+08:00 ] ::1 /dangdang/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-12T14:29:44+08:00 ] ::1 /dangdang/Login/getLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-08-12T14:29:46+08:00 ] ::1 /dangdang/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-12T14:29:46+08:00 ] ::1 /dangdang/Login/getLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-12T14:29:47+08:00 ] ::1 /dangdang/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-12T14:29:48+08:00 ] ::1 /dangdang/Login/getLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-12T14:29:50+08:00 ] ::1 /dangdang/Index/search/id/11.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-12T14:29:50+08:00 ] ::1 /dangdang/Login/getLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-12T14:29:52+08:00 ] ::1 /dangdang/Index/search?page=1&id=11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT A.id,A.goods_name,A.market_price,A.sales_price,A.classify,A.stock,A.state,B.id as bid,B.pid,B.images,B.time,B.first FROM shop_goods as A,shop_goods_images as B WHERE B.first=1 AND B.pid=A.id AND A.state=1 AND A.classify=11 ORDER BY A.id ASC LIMIT 15,15 [ RunTime:0.0010s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\AppServ\www\dangdang\Application\Home\Controller\IndexController.class.php 第 116 行.
+
+[ 2017-08-12T14:29:52+08:00 ] ::1 /dangdang/Index/search?page=2&id=11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT A.id,A.goods_name,A.market_price,A.sales_price,A.classify,A.stock,A.state,B.id as bid,B.pid,B.images,B.time,B.first FROM shop_goods as A,shop_goods_images as B WHERE B.first=1 AND B.pid=A.id AND A.state=1 AND A.classify=11 ORDER BY A.id ASC LIMIT 30,15 [ RunTime:0.0010s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\AppServ\www\dangdang\Application\Home\Controller\IndexController.class.php 第 116 行.
+
+[ 2017-08-12T14:29:52+08:00 ] ::1 /dangdang/Index/search?page=3&id=11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT A.id,A.goods_name,A.market_price,A.sales_price,A.classify,A.stock,A.state,B.id as bid,B.pid,B.images,B.time,B.first FROM shop_goods as A,shop_goods_images as B WHERE B.first=1 AND B.pid=A.id AND A.state=1 AND A.classify=11 ORDER BY A.id ASC LIMIT 45,15 [ RunTime:0.0010s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\AppServ\www\dangdang\Application\Home\Controller\IndexController.class.php 第 116 行.
+
+[ 2017-08-12T14:29:52+08:00 ] ::1 /dangdang/Index/search?page=4&id=11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT A.id,A.goods_name,A.market_price,A.sales_price,A.classify,A.stock,A.state,B.id as bid,B.pid,B.images,B.time,B.first FROM shop_goods as A,shop_goods_images as B WHERE B.first=1 AND B.pid=A.id AND A.state=1 AND A.classify=11 ORDER BY A.id ASC LIMIT 60,15 [ RunTime:0.0010s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\AppServ\www\dangdang\Application\Home\Controller\IndexController.class.php 第 116 行.
+
+[ 2017-08-12T14:29:52+08:00 ] ::1 /dangdang/Index/search?page=5&id=11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT A.id,A.goods_name,A.market_price,A.sales_price,A.classify,A.stock,A.state,B.id as bid,B.pid,B.images,B.time,B.first FROM shop_goods as A,shop_goods_images as B WHERE B.first=1 AND B.pid=A.id AND A.state=1 AND A.classify=11 ORDER BY A.id ASC LIMIT 75,15 [ RunTime:0.0010s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\AppServ\www\dangdang\Application\Home\Controller\IndexController.class.php 第 116 行.
+
+[ 2017-08-12T14:29:52+08:00 ] ::1 /dangdang/Index/search?page=6&id=11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT A.id,A.goods_name,A.market_price,A.sales_price,A.classify,A.stock,A.state,B.id as bid,B.pid,B.images,B.time,B.first FROM shop_goods as A,shop_goods_images as B WHERE B.first=1 AND B.pid=A.id AND A.state=1 AND A.classify=11 ORDER BY A.id ASC LIMIT 90,15 [ RunTime:0.0010s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\AppServ\www\dangdang\Application\Home\Controller\IndexController.class.php 第 116 行.
+
+[ 2017-08-12T14:29:52+08:00 ] ::1 /dangdang/Index/search?page=7&id=11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT A.id,A.goods_name,A.market_price,A.sales_price,A.classify,A.stock,A.state,B.id as bid,B.pid,B.images,B.time,B.first FROM shop_goods as A,shop_goods_images as B WHERE B.first=1 AND B.pid=A.id AND A.state=1 AND A.classify=11 ORDER BY A.id ASC LIMIT 105,15 [ RunTime:0.0010s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\AppServ\www\dangdang\Application\Home\Controller\IndexController.class.php 第 116 行.
+
+[ 2017-08-12T14:29:52+08:00 ] ::1 /dangdang/Index/search?page=8&id=11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT A.id,A.goods_name,A.market_price,A.sales_price,A.classify,A.stock,A.state,B.id as bid,B.pid,B.images,B.time,B.first FROM shop_goods as A,shop_goods_images as B WHERE B.first=1 AND B.pid=A.id AND A.state=1 AND A.classify=11 ORDER BY A.id ASC LIMIT 120,15 [ RunTime:0.0000s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\AppServ\www\dangdang\Application\Home\Controller\IndexController.class.php 第 116 行.
+
+[ 2017-08-12T14:29:52+08:00 ] ::1 /dangdang/Index/search?page=9&id=11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT A.id,A.goods_name,A.market_price,A.sales_price,A.classify,A.stock,A.state,B.id as bid,B.pid,B.images,B.time,B.first FROM shop_goods as A,shop_goods_images as B WHERE B.first=1 AND B.pid=A.id AND A.state=1 AND A.classify=11 ORDER BY A.id ASC LIMIT 135,15 [ RunTime:0.0010s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\AppServ\www\dangdang\Application\Home\Controller\IndexController.class.php 第 116 行.
+
+[ 2017-08-12T14:29:52+08:00 ] ::1 /dangdang/Index/search?page=10&id=11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT A.id,A.goods_name,A.market_price,A.sales_price,A.classify,A.stock,A.state,B.id as bid,B.pid,B.images,B.time,B.first FROM shop_goods as A,shop_goods_images as B WHERE B.first=1 AND B.pid=A.id AND A.state=1 AND A.classify=11 ORDER BY A.id ASC LIMIT 150,15 [ RunTime:0.0000s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\AppServ\www\dangdang\Application\Home\Controller\IndexController.class.php 第 116 行.
+
+[ 2017-08-12T14:29:52+08:00 ] ::1 /dangdang/Index/search?page=11&id=11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT A.id,A.goods_name,A.market_price,A.sales_price,A.classify,A.stock,A.state,B.id as bid,B.pid,B.images,B.time,B.first FROM shop_goods as A,shop_goods_images as B WHERE B.first=1 AND B.pid=A.id AND A.state=1 AND A.classify=11 ORDER BY A.id ASC LIMIT 165,15 [ RunTime:0.0010s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\AppServ\www\dangdang\Application\Home\Controller\IndexController.class.php 第 116 行.
+
+[ 2017-08-12T14:29:52+08:00 ] ::1 /dangdang/Index/search?page=12&id=11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT A.id,A.goods_name,A.market_price,A.sales_price,A.classify,A.stock,A.state,B.id as bid,B.pid,B.images,B.time,B.first FROM shop_goods as A,shop_goods_images as B WHERE B.first=1 AND B.pid=A.id AND A.state=1 AND A.classify=11 ORDER BY A.id ASC LIMIT 180,15 [ RunTime:0.0000s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\AppServ\www\dangdang\Application\Home\Controller\IndexController.class.php 第 116 行.
+
+[ 2017-08-12T14:29:52+08:00 ] ::1 /dangdang/Index/search?page=13&id=11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT A.id,A.goods_name,A.market_price,A.sales_price,A.classify,A.stock,A.state,B.id as bid,B.pid,B.images,B.time,B.first FROM shop_goods as A,shop_goods_images as B WHERE B.first=1 AND B.pid=A.id AND A.state=1 AND A.classify=11 ORDER BY A.id ASC LIMIT 195,15 [ RunTime:0.0010s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\AppServ\www\dangdang\Application\Home\Controller\IndexController.class.php 第 116 行.
+
+[ 2017-08-12T14:29:52+08:00 ] ::1 /dangdang/Index/search?page=14&id=11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT A.id,A.goods_name,A.market_price,A.sales_price,A.classify,A.stock,A.state,B.id as bid,B.pid,B.images,B.time,B.first FROM shop_goods as A,shop_goods_images as B WHERE B.first=1 AND B.pid=A.id AND A.state=1 AND A.classify=11 ORDER BY A.id ASC LIMIT 210,15 [ RunTime:0.0010s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\AppServ\www\dangdang\Application\Home\Controller\IndexController.class.php 第 116 行.
+
+[ 2017-08-12T14:29:52+08:00 ] ::1 /dangdang/Index/search?page=15&id=11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT A.id,A.goods_name,A.market_price,A.sales_price,A.classify,A.stock,A.state,B.id as bid,B.pid,B.images,B.time,B.first FROM shop_goods as A,shop_goods_images as B WHERE B.first=1 AND B.pid=A.id AND A.state=1 AND A.classify=11 ORDER BY A.id ASC LIMIT 225,15 [ RunTime:0.0000s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\AppServ\www\dangdang\Application\Home\Controller\IndexController.class.php 第 116 行.
+
+[ 2017-08-12T14:29:52+08:00 ] ::1 /dangdang/Index/search?page=16&id=11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT A.id,A.goods_name,A.market_price,A.sales_price,A.classify,A.stock,A.state,B.id as bid,B.pid,B.images,B.time,B.first FROM shop_goods as A,shop_goods_images as B WHERE B.first=1 AND B.pid=A.id AND A.state=1 AND A.classify=11 ORDER BY A.id ASC LIMIT 240,15 [ RunTime:0.0000s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\AppServ\www\dangdang\Application\Home\Controller\IndexController.class.php 第 116 行.
+
+[ 2017-08-12T14:29:52+08:00 ] ::1 /dangdang/Index/search?page=17&id=11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT A.id,A.goods_name,A.market_price,A.sales_price,A.classify,A.stock,A.state,B.id as bid,B.pid,B.images,B.time,B.first FROM shop_goods as A,shop_goods_images as B WHERE B.first=1 AND B.pid=A.id AND A.state=1 AND A.classify=11 ORDER BY A.id ASC LIMIT 255,15 [ RunTime:0.0000s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\AppServ\www\dangdang\Application\Home\Controller\IndexController.class.php 第 116 行.
+
+[ 2017-08-12T14:29:52+08:00 ] ::1 /dangdang/Index/search?page=18&id=11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT A.id,A.goods_name,A.market_price,A.sales_price,A.classify,A.stock,A.state,B.id as bid,B.pid,B.images,B.time,B.first FROM shop_goods as A,shop_goods_images as B WHERE B.first=1 AND B.pid=A.id AND A.state=1 AND A.classify=11 ORDER BY A.id ASC LIMIT 270,15 [ RunTime:0.0010s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\AppServ\www\dangdang\Application\Home\Controller\IndexController.class.php 第 116 行.
+
+[ 2017-08-12T14:29:52+08:00 ] ::1 /dangdang/Index/search?page=19&id=11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT A.id,A.goods_name,A.market_price,A.sales_price,A.classify,A.stock,A.state,B.id as bid,B.pid,B.images,B.time,B.first FROM shop_goods as A,shop_goods_images as B WHERE B.first=1 AND B.pid=A.id AND A.state=1 AND A.classify=11 ORDER BY A.id ASC LIMIT 285,15 [ RunTime:0.0000s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\AppServ\www\dangdang\Application\Home\Controller\IndexController.class.php 第 116 行.
+
+[ 2017-08-12T14:29:53+08:00 ] ::1 /dangdang/Index/search?page=20&id=11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT A.id,A.goods_name,A.market_price,A.sales_price,A.classify,A.stock,A.state,B.id as bid,B.pid,B.images,B.time,B.first FROM shop_goods as A,shop_goods_images as B WHERE B.first=1 AND B.pid=A.id AND A.state=1 AND A.classify=11 ORDER BY A.id ASC LIMIT 300,15 [ RunTime:0.0000s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\AppServ\www\dangdang\Application\Home\Controller\IndexController.class.php 第 116 行.
+
+[ 2017-08-12T15:30:16+08:00 ] ::1 /dangdang/Index/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:verify
+
+[ 2017-08-12T15:30:25+08:00 ] ::1 /dangdang/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-12T15:31:01+08:00 ] ::1 /dangdang/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-12T15:31:02+08:00 ] ::1 /dangdang/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-12T15:32:58+08:00 ] ::1 /dangdang/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-12T15:33:03+08:00 ] ::1 /dangdang/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-12T15:34:01+08:00 ] ::1 /dangdang/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-12T15:34:25+08:00 ] ::1 /dangdang/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-12T15:34:45+08:00 ] ::1 /dangdang/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-12T15:39:35+08:00 ] ::1 /dangdang/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-12T15:40:09+08:00 ] ::1 /dangdang/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-12T15:43:06+08:00 ] ::1 /dangdang/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-12T15:43:42+08:00 ] ::1 /dangdang/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-12T15:43:43+08:00 ] ::1 /dangdang/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-08-12T15:43:44+08:00 ] ::1 /dangdang/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-12T15:43:45+08:00 ] ::1 /dangdang/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-12T15:43:46+08:00 ] ::1 /dangdang/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-12T15:43:58+08:00 ] ::1 /dangdang/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-12T15:44:57+08:00 ] ::1 /dangdang/Login/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-12T15:44:59+08:00 ] ::1 /dangdang/index.php/Home/Login/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-12T15:48:11+08:00 ] ::1 /dangdang/index.php/Home/Login/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-12T15:48:14+08:00 ] ::1 /dangdang/index.php/Home/Login/to_register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-12T15:48:14+08:00 ] ::1 /dangdang/index.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-12T15:48:14+08:00 ] ::1 /dangdang/Login/getLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-12T15:48:49+08:00 ] ::1 /dangdang/Login/getLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-12T15:48:51+08:00 ] ::1 /dangdang/index.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-12T15:48:52+08:00 ] ::1 /dangdang/Login/getLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-12T15:48:55+08:00 ] ::1 /dangdang/Login/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-12T15:49:01+08:00 ] ::1 /dangdang/index.php/Home/Login/to_register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-12T15:49:57+08:00 ] ::1 /dangdang/Login/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-12T15:49:58+08:00 ] ::1 /dangdang/Login/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-12T15:50:13+08:00 ] ::1 /dangdang/Login/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-12T15:50:14+08:00 ] ::1 /dangdang/Login/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-12T15:50:34+08:00 ] ::1 /dangdang/Login/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-12T15:50:35+08:00 ] ::1 /dangdang/Login/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-12T15:51:27+08:00 ] ::1 /dangdang/Login/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-12T15:51:42+08:00 ] ::1 /dangdang/Login/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-12T15:51:43+08:00 ] ::1 /dangdang/Login/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-12T15:51:44+08:00 ] ::1 /dangdang/Login/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-12T15:51:44+08:00 ] ::1 /dangdang/Login/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-12T15:51:45+08:00 ] ::1 /dangdang/Login/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-12T15:51:46+08:00 ] ::1 /dangdang/Login/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-12T15:52:11+08:00 ] ::1 /dangdang/Login/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-12T15:52:26+08:00 ] ::1 /dangdang/Login/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-12T15:52:29+08:00 ] ::1 /dangdang/Login/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-12T15:52:30+08:00 ] ::1 /dangdang/Login/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-12T15:52:51+08:00 ] ::1 /dangdang/Login/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-12T15:52:52+08:00 ] ::1 /dangdang/Login/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-12T15:53:54+08:00 ] ::1 /dangdang/Login/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-12T15:53:57+08:00 ] ::1 /dangdang/Login/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-12T15:55:02+08:00 ] ::1 /dangdang/Login/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-12T15:55:04+08:00 ] ::1 /dangdang/Login/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-12T15:58:24+08:00 ] ::1 /dangdang/Login/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-12T15:58:27+08:00 ] ::1 /dangdang/Login/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-12T15:58:30+08:00 ] ::1 /dangdang/Login/verify?phone=13435657684
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-08-12T15:58:31+08:00 ] ::1 /dangdang/Login/verify?phone=13435657684
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-12T15:58:31+08:00 ] ::1 /dangdang/Login/verify?phone=13435657684
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-12T15:58:31+08:00 ] ::1 /dangdang/Login/verify?phone=13435657684
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-12T15:58:33+08:00 ] ::1 /dangdang/Login/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-12T15:58:35+08:00 ] ::1 /dangdang/Login/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-12T15:58:38+08:00 ] ::1 /dangdang/Login/verify?phone=13435657684
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-12T15:58:58+08:00 ] ::1 /dangdang/Login/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-12T15:59:00+08:00 ] ::1 /dangdang/Login/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-12T15:59:02+08:00 ] ::1 /dangdang/Login/verify?phone=13435657684
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-12T15:59:03+08:00 ] ::1 /dangdang/Login/verify?phone=13435657684
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-12T15:59:03+08:00 ] ::1 /dangdang/Login/verify?phone=13435657684
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-12T15:59:03+08:00 ] ::1 /dangdang/Login/verify?phone=13435657684
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-12T15:59:03+08:00 ] ::1 /dangdang/Login/verify?phone=13435657684
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-12T15:59:04+08:00 ] ::1 /dangdang/Login/verify?phone=13435657684
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-08-12T15:59:04+08:00 ] ::1 /dangdang/Login/verify?phone=13435657684
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-12T15:59:04+08:00 ] ::1 /dangdang/Login/verify?phone=13435657684
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-12T21:26:07+00:00 ] 127.0.0.1 /Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: InvalidAccessKeyId.NotFound Specified access key is not found. HTTP Status: 404 RequestID: 492FF5B0-1CBD-438D-B68A-A08D7C8BF9BC
+
+[ 2017-08-12T21:26:39+00:00 ] 127.0.0.1 /Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: InvalidAccessKeyId.NotFound Specified access key is not found. HTTP Status: 404 RequestID: F32697D3-E8F8-4924-AB50-D2299E92E176
+
+[ 2017-08-12T21:26:40+00:00 ] 127.0.0.1 /Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: InvalidAccessKeyId.NotFound Specified access key is not found. HTTP Status: 404 RequestID: A238C9D0-2AE7-4468-96BE-51E39823D592
+
+[ 2017-08-12T21:26:41+00:00 ] 127.0.0.1 /Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+ERR: InvalidAccessKeyId.NotFound Specified access key is not found. HTTP Status: 404 RequestID: C91C0156-A73C-4673-B7E6-48F22022CE0B
+
+[ 2017-08-12T21:26:42+00:00 ] 127.0.0.1 /Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: InvalidAccessKeyId.NotFound Specified access key is not found. HTTP Status: 404 RequestID: 791F2F59-748B-444A-B935-489B9B3DD518
+
+[ 2017-08-12T21:26:43+00:00 ] 127.0.0.1 /Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: InvalidAccessKeyId.NotFound Specified access key is not found. HTTP Status: 404 RequestID: 7658E0F2-32E4-4F0E-8ACB-57BAD1092314
+
+[ 2017-08-12T21:26:55+00:00 ] 127.0.0.1 /Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: InvalidAccessKeyId.NotFound Specified access key is not found. HTTP Status: 404 RequestID: 8B1A2962-77C9-4560-A1DA-0A05849DECD0
+
+[ 2017-08-12T21:26:56+00:00 ] 127.0.0.1 /Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: InvalidAccessKeyId.NotFound Specified access key is not found. HTTP Status: 404 RequestID: FB6272F7-51F4-42F3-89F6-B1F8183487F3
+
+[ 2017-08-12T21:26:58+00:00 ] 127.0.0.1 /Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: InvalidAccessKeyId.NotFound Specified access key is not found. HTTP Status: 404 RequestID: E3C03E71-8370-4135-823E-16B53F7BE539
+
+[ 2017-08-12T21:28:55+00:00 ] 127.0.0.1 /Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: InvalidAccessKeyId.NotFound Specified access key is not found. HTTP Status: 404 RequestID: 6FEBEF9B-B952-4EF3-9491-49E6CAE18039
+
+[ 2017-08-12T21:28:56+00:00 ] 127.0.0.1 /Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: InvalidAccessKeyId.NotFound Specified access key is not found. HTTP Status: 404 RequestID: BAF6044C-C08F-4102-B06B-99FC55831ACD
+
+[ 2017-08-12T21:29:05+00:00 ] 127.0.0.1 /Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: InvalidAccessKeyId.NotFound Specified access key is not found. HTTP Status: 404 RequestID: C9066D3A-6F56-467B-8D7B-CA16B4A5981E
+
+[ 2017-08-12T21:34:38+00:00 ] 127.0.0.1 /Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: InvalidAccessKeyId.NotFound Specified access key is not found. HTTP Status: 404 RequestID: 0AA0A895-B676-483B-A00A-63B2D294F907
+
+[ 2017-08-12T21:34:52+00:00 ] 127.0.0.1 /Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: InvalidAccessKeyId.NotFound Specified access key is not found. HTTP Status: 404 RequestID: 8ECD02AC-5157-4D8F-8B11-41FE9080BB64
+
+[ 2017-08-12T21:34:53+00:00 ] 127.0.0.1 /Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: InvalidAccessKeyId.NotFound Specified access key is not found. HTTP Status: 404 RequestID: 993D0305-8CC5-48FC-B5BF-A30C8EF61692
+
+[ 2017-08-12T21:34:53+00:00 ] 127.0.0.1 /Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: InvalidAccessKeyId.NotFound Specified access key is not found. HTTP Status: 404 RequestID: 301AA001-5724-4BDF-98C1-FB582DE7EA09
+
+[ 2017-08-12T21:34:54+00:00 ] 127.0.0.1 /Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: InvalidAccessKeyId.NotFound Specified access key is not found. HTTP Status: 404 RequestID: C391E380-31D0-4F67-9EE3-B4C1751D2613
+
+[ 2017-08-12T21:34:55+00:00 ] 127.0.0.1 /Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: InvalidAccessKeyId.NotFound Specified access key is not found. HTTP Status: 404 RequestID: 97B5BB73-5867-4319-B3CA-1ADF38618396
+
+[ 2017-08-12T21:34:55+00:00 ] 127.0.0.1 /Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: InvalidAccessKeyId.NotFound Specified access key is not found. HTTP Status: 404 RequestID: 3C80B5A9-F012-4A7A-A98A-52B1EC8CDBAF
+
+[ 2017-08-12T21:34:55+00:00 ] 127.0.0.1 /Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: InvalidAccessKeyId.NotFound Specified access key is not found. HTTP Status: 404 RequestID: 39FA4BF5-366E-465C-A032-12F1C3477F45
+
+[ 2017-08-12T21:34:56+00:00 ] 127.0.0.1 /Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: InvalidAccessKeyId.NotFound Specified access key is not found. HTTP Status: 404 RequestID: 575F439C-563C-4271-AF0A-B690D4A6283D
+
+[ 2017-08-12T21:34:56+00:00 ] 127.0.0.1 /Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: InvalidAccessKeyId.NotFound Specified access key is not found. HTTP Status: 404 RequestID: 686431E3-FD86-4ADC-B62B-6C32223CF4DD
+
+[ 2017-08-12T21:34:56+00:00 ] 127.0.0.1 /Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: InvalidAccessKeyId.NotFound Specified access key is not found. HTTP Status: 404 RequestID: C0A432FF-D7D9-4DE6-BD57-E9ED0D05A010
+
+[ 2017-08-12T21:45:41+00:00 ] 127.0.0.1 /Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: InvalidAccessKeyId.NotFound Specified access key is not found. HTTP Status: 404 RequestID: 282BF95D-F078-42B4-B793-10B0B87ED3B2
+
+[ 2017-08-12T21:45:44+00:00 ] 127.0.0.1 /Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: InvalidAccessKeyId.NotFound Specified access key is not found. HTTP Status: 404 RequestID: 0103C734-6BF2-43F4-8834-EAA26ECE89BE
+
+[ 2017-08-12T21:47:28+00:00 ] 127.0.0.1 /Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-12T22:01:21+00:00 ] 127.0.0.1 /Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-12T22:09:25+00:00 ] 127.0.0.1 /Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-12T22:14:40+00:00 ] 127.0.0.1 /Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-12T22:47:12+00:00 ] 127.0.0.1 /Login/verify?phone=13435657684
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-12T22:47:54+00:00 ] 127.0.0.1 /Login/verify?phone=13435657684
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-12T22:48:23+00:00 ] 127.0.0.1 /Login/verify?phone=13435657684
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-12T22:49:56+00:00 ] 127.0.0.1 /Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-12T22:50:01+00:00 ] 127.0.0.1 /Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-12T22:50:57+00:00 ] 127.0.0.1 /Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-12T22:50:58+00:00 ] 127.0.0.1 /Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-12T22:50:58+00:00 ] 127.0.0.1 /Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-12T22:50:58+00:00 ] 127.0.0.1 /Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-12T22:50:58+00:00 ] 127.0.0.1 /Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-12T22:51:43+00:00 ] 127.0.0.1 /Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-12T22:55:59+00:00 ] 127.0.0.1 /Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-12T22:56:20+00:00 ] 127.0.0.1 /Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-12T22:56:44+00:00 ] 127.0.0.1 /Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-12T23:00:17+00:00 ] 127.0.0.1 /Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-12T23:21:02+00:00 ] 127.0.0.1 /Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+

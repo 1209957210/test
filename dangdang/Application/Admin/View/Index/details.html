@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <include file="Public/head"/>
+</head>
+<body>
+<div class="main-wrap">
+    <include file="Public/left"/>
+    <div class="content-wrap">
+        <include file="Public/header"/>
+        <!--表单-->
+        <main class="main-cont content mCustomScrollbar">
+            <div class="page-wrap container-fluid">
+                <!--开始::内容-->
+                <div class="pull-left">
+                    <img src=""/>
+                </div>
+                <!--开始::结束-->
+            </div>
+        </main>
+        <include file="Public/bottom"/>
+    </div>
+</div>
+<script type="text/javascript" language="JavaScript">
+    function set_delete(id){
+        var id={'id':id};
+        var url='__ROOT__/Admin/Sql/update';
+        $(function(){
+            $.ajax({
+                url:url,
+                data:id,
+                type:'get',
+                success:function (int){
+                    top.location.reload();
+                    int?layer.msg('下架成功'):layer.msg('下架失败');
+                }
+            });
+        });
+    }
+</script>
+</body>
+</html>

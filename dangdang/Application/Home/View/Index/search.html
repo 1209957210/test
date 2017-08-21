@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>商品分类</title>
+    <include file="Public/head"/>
+    <include file="Public/js"/>
+</head>
+<body>
+<div>
+    <include file="Public/header"/>
+    <include file="Public/nav"/>
+</div>
+<div class="container">
+    <div class="row" id="page">
+        <foreach  name="goods" item="value">
+           <a href="__ROOT__/Index/item/id/<{$value.id}>.html">
+           <div style="padding-top:15px;" class="col-md-3">
+               <div class="thumbnail">
+                       <img  class="img-responsive " src="__PUBLIC__/Uploads/<php>echo date('Y-m-d',$value['time']);</php>/<{$value.images}>" alt="<{$value.goods_name}>"/>
+
+                   <div class="caption">
+                       <p><{$value.goods_name}></p>
+                       <div>
+                           <h3 class="pull-left">
+                               <span class="text-error"><span>￥</span><{$value.sales_price}></span>
+                               <small class="text-muted"><del><span>￥</span><{$value.market_price}></del></small>
+                           </h3>
+                       </div>
+                       <br/>
+                       <hr/>
+                       <span class="text-left">月销8337</span>
+                       <span class="pull-right">包邮</span>
+                   </div>
+               </div>
+           </div>
+           </a>
+       </foreach>
+    </div>
+</div>
+<include file="Public/js2"/>
+<script>
+    $(function () {
+        var id='<{$id}>';
+        var goods_name='<{$goods_name}>';
+        var i=1;
+        var height=$(window).height();//页面可视高度
+        $(window).scroll(function () {
+            var scrollTop=$(window).scrollTop();
+            var pageHeight=$(document.body).height();
+            var math=(pageHeight-height-scrollTop)/height;
+            if(math<0.1){
+                var url='__ROOT__/Index/search';
+                if(id){
+                    var data={'page':i,'id':id};
+                }else if(goods_name){
+                    var data={'page':i,'goods_name':goods_name};
+                }else{
+                    var data={'page':i};
+                }
+                i++;
+                $.getJSON(url,data,function(arr){
+                    var arr=eval("("+arr+")");
+                    var add='';
+                    $.each(arr,function (i,n) {
+                        add+="<a href='__ROOT__/Index/item/id/"+n.id+".html'>";
+                        add+="<div style='padding-top:15px;' class='col-md-3'>";
+                        add+="<div class='thumbnail'>";
+                        add+="<img  class='img-responsive ' src='__PUBLIC__/Uploads/"+n.time+"/"+n.images+"' alt='"+n.goods_name+"'/>";
+                        add+="<div class='caption'>";
+                        add+="<p>"+n.goods_name+"</p>";
+                        add+="<div>";
+                        add+="<h3 class='pull-left'>";
+                        add+="<span class='text-error'><span>￥</span>"+n.sales_price+"</span>";
+                        add+="<small class='text-muted'><del><span>￥</span>"+n.sales_price+"</del></small>";
+                        add+="</h3>";
+                        add+="</div>";
+                        add+="<br/>";
+                        add+="<hr/>";
+                        add+="<span class='text-left'>月销8337</span>";
+                        add+="<span class='pull-right'>包邮</span>";
+                        add+="</div>";
+                        add+="</div>";
+                        add+="</div>";
+                        add+="</a>";
+                    });
+                    $("#page").append(add);
+                });
+            }
+
+        });
+    });
+</script>
+</body>
+</html>

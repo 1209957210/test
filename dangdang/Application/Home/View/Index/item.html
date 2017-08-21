@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>商品</title>
+    <include file="Public/head"/>
+    <include file="Public/js"/>
+</head>
+<body class="product-template-default single single-product woocommerce woocommerce-page">
+
+<!--导航栏-->
+<div class="body-wrapper theme-clearfix text-muted">
+    <include file="Public/header"/>
+    <!--导航栏下方内容块-->
+    <include file="Public/nav"/>
+    <div class="container">
+        <div class="row">
+            <div id="contents-detail" class="content col-lg-12 col-md-12 col-sm-12" role="main">
+                <div id="container">
+                    <div id="content" role="main">
+                        <div class="single-product clearfix">
+                            <div id="product-01" class="product type-product status-publish has-post-thumbnail product_cat-accessories product_brand-global-voices first outofstock featured shipping-taxable purchasable product-type-simple">
+                                <div class="product_detail row">
+                                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 clear_xs">
+                                        <div class="slider_img_productd">
+                                            <!-- woocommerce_show_product_images -->
+                                            <!--展示产品图片-->
+                                            <div id="product_img_01" class="product-images loading" data-rtl="false">
+                                                <div class="product-images-container clearfix thumbnail-bottom">
+                                                    <!-- Image Slider -->
+                                                        <!--滑块图片-->
+                                                        <div class="slider product-responsive">
+                                                            <foreach name="item" item="value">
+                                                            <div class="item-img-slider">
+                                                                <div class="images">
+                                                                    <a href="__PUBLIC__/Uploads/<php>echo date('Y-m-d',$value['time']);</php>/<{$value.images}> " data-rel="prettyPhoto[product-gallery]" class="zoom">
+                                                                        <img width="600" height="600" src="__PUBLIC__/Uploads/<php>echo date('Y-m-d',$value['time']);</php>/<{$value.images}>" class="attachment-shop_single size-shop_single" alt="" srcset="__PUBLIC__/Uploads/<php>echo date('Y-m-d',$value['time']);</php>/<{$value.images}> 600w, __PUBLIC__/Uploads/<php>echo date('Y-m-d',$value['time']);</php>/<{$value.images}> 150w, __PUBLIC__/Uploads/<php>echo date('Y-m-d',$value['time']);</php>/<{$value.images}> 300w, __PUBLIC__/Uploads/<php>echo date('Y-m-d',$value['time']);</php>/<{$value.images}> 180w" sizes="(max-width: 600px) 100vw, 600px">
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                    </foreach>
+                                                        </div>
+                                                        <!-- Thumbnail Slider -->
+                                                        <!--缩略图滑块-->
+                                                        <div class="slider product-responsive-thumbnail" id="product_thumbnail_247">
+                                                            <foreach name="item" item="value">
+                                                            <div class="item-thumbnail-product">
+                                                                <div class="thumbnail-wrapper">
+                                                                    <img width="180" height="180" src="__PUBLIC__/Uploads/<php>echo date('Y-m-d',$value['time']);</php>/<{$value.images}>" class="attachment-shop_thumbnail size-shop_thumbnail" alt="<{$value.goods_name}>" srcset="__PUBLIC__/Uploads/<php>echo date('Y-m-d',$value['time']);</php>/<{$value.images}> 180w, __PUBLIC__/Uploads/<php>echo date('Y-m-d',$value['time']);</php>/<{$value.images}> 150w, __PUBLIC__/Uploads/<php>echo date('Y-m-d',$value['time']);</php>/<{$value.images}> 300w, __PUBLIC__/Uploads/<php>echo date('Y-m-d',$value['time']);</php>/<{$value.images}> 600w" sizes="(max-width: 180px) 100vw, 180px">
+                                                                </div>
+                                                            </div>
+                                                            </foreach>
+                                                        </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--产品信息-->
+                                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 clear_xs">
+                                            <foreach name="item" item="value">
+                                                <eq name="value.first" value="1">
+                                                    <div class="content_product_detail">
+                                                        <h1 class="text-muted product_title entry-title"><{$value.goods_name}></h1>
+
+                                                        <div class="reviews-content text-muted">
+                                                            <div class="star"></div>
+                                                            <a href="#reviews" class="woocommerce-review-link" rel="nofollow"><span class="count">评分</span></a>
+                                                        </div>
+                                                        <div>
+                                                            <p class="text-muted">市场价：<del>￥<span><{$value.market_price}></span></del></p>
+                                                            <p class="price">售价：<span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">￥</span><{$value.sales_price}></span></p>
+                                                        </div>
+
+                                                        <php>$color=explode(',',$value['color']);$size=explode(',',$value['size']);</php>
+                                                        <div class="product-info clearfix">
+                                                            <span class="pull-left">尺码</span>
+                                                            <div class="">
+                                                              <foreach name="size" item="vo">
+                                                                  <if condition="$key eq 0">
+                                                                      <label  class="radio-inline">
+                                                                          <input type="radio" name="size"  checked="checked"><button type="button" class="btn btn-info" ><{$vo}></button>
+                                                                      </label>
+                                                                      <else/>
+                                                                      <label  class="radio-inline">
+                                                                          <input type="radio" name="size" ><button type="button" class="btn btn-info" ><{$vo}></button>
+                                                                      </label>
+                                                                  </if>
+                                                              </foreach>
+                                                            </div>
+
+
+                                                        </div>
+                                                        <div class="product-info clearfix">
+                                                            <span class="pull-left">颜色</span>
+                                                            <div>
+                                                               <foreach name="color" item="vo">
+                                                                   <if condition="$key eq 0">
+                                                                      <label  class="radio-inline">
+                                                                          <input type="radio" name="color" checked="checked"><button type="button" class="btn btn-info" ><{$vo}></button>
+                                                                      </label>
+                                                                       <else/>
+                                                                       <label  class="radio-inline">
+                                                                           <input type="radio" name="color" ><button type="button" class="btn btn-info" ><{$vo}></button>
+                                                                       </label>
+                                                                  </if>
+                                                               </foreach>
+                                                            </div>
+                                                        </div>
+                                                        <div class="product-info clearfix row">
+                                                            <div class="col-md-1 col-xs-2"><span class="pull-left ">数量</span></div>
+                                                            <div class="form-group col-md-3 col-xs-7">
+                                                                <div class="input-group">
+                                                                    <div class="btn input-group-addon" onclick="number(this)">-</div>
+                                                                    <input type="text"value="1" class="form-control number_count"/>
+                                                                    <div class="btn input-group-addon" onclick="number(this)">+</div>
+                                                                    <div class=""><span>件</span></div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-3 col-xs-3"><span>(库存<{$value.stock}>件)</span></div>
+                                                        </div>
+                                                        <button onclick="login(this)" id="add_cart" type="button" class="btn btn-info btn-primary btn-lg" data-toggle="modal" >
+                                                            加入购物车
+                                                        </button>
+                                                        <div class="row"  id="cart_border">
+                                                            <div class="col-md-3 clo-xs-4">
+                                                                <!-- Button trigger modal -->
+                                                                <!-- Modal -->
+                                                                <form action="__ROOT__/Cart/add_cart.html" method="post" id="size">
+                                                                    <input type="hidden" name="id" value="<{$value.id}>"/>
+                                                                    <div class="modal fade" id="purchase" tabindex="-1" role="dialog" aria-labelledby="buy">
+                                                                        <div class="modal-dialog" role="document">
+                                                                            <div class="modal-content">
+                                                                                <div class="modal-header">
+                                                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                                                                    <h4 class="modal-title" id="buy">请选择您要的商品信息</h4>
+                                                                                </div>
+                                                                                <div class="modal-body">
+                                                                                    <div class="product-info clearfix">
+                                                                                        <span class="pull-left">尺码</span>
+                                                                                        <div class="">
+                                                                                            <foreach name="size" item="vi">
+                                                                                                <if condition="$key eq 0">
+                                                                                                <label  class="radio-inline">
+                                                                                                    <input type="radio" name="size" class="size" value="<{$vi}>" checked="checked"><button type="button" class="btn btn-info" ><{$vi}></button>
+                                                                                                </label>
+                                                                                                    <else/>
+                                                                                                    <label  class="radio-inline">
+                                                                                                        <input type="radio" name="size" class="size" value="<{$vi}>"><button type="button" class="btn btn-info" ><{$vi}></button>
+                                                                                                    </label>
+                                                                                                </if>
+                                                                                            </foreach>
+                                                                                        </div>
+                                                                                    </div>
+
+                                                                                    <div class="product-info clearfix">
+                                                                                        <span class="pull-left">颜色</span>
+                                                                                        <div class="size_radio">
+                                                                                            <foreach name="color" item="vo">
+                                                                                                <if condition="$key eq 0">
+                                                                                                <label  class="radio-inline">
+                                                                                                    <input type="radio" name="color"  value="<{$vo}>" checked="checked"><button type="button" class="btn btn-info" ><{$vo}></button>
+                                                                                                </label>
+                                                                                                    <else/>
+                                                                                                    <label  class="radio-inline">
+                                                                                                        <input type="radio" name="color"  value="<{$vo}>"><button type="button" class="btn btn-info" ><{$vo}></button>
+                                                                                                    </label>
+                                                                                                </if>
+                                                                                            </foreach>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div class="product-info clearfix row">
+                                                                                        <div class="col-md-1 col-xs-2"><span class="pull-left ">数量</span></div>
+                                                                                        <div class="form-group col-md-4 col-xs-7">
+                                                                                            <div class="input-group">
+                                                                                                <div class="btn input-group-addon" onclick="number(this)">-</div>
+                                                                                                <input type="text"value="1" name="count" class="form-control number_count"/>
+                                                                                                <div class="btn input-group-addon" onclick="number(this)">+</div>
+                                                                                                <div class=""><span>件</span></div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div class="modal-footer">
+                                                                                        <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                                                                                        <button id="button" type="button" class="btn btn-primary">加入购物车</button>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </form>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </eq>
+                                            </foreach>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tabs clearfix">
+                                <div class="tabbable">
+                                    <ul class="nav nav-tabs">
+                                        <li class="description_tab active">
+                                            <a href="#tab-description" data-toggle="tab">商品详情</a>
+                                        </li>
+                                        <li class="reviews_tab ">
+                                            <a href="#tab-reviews" data-toggle="tab">评论</a>
+                                        </li>
+                                    </ul>
+
+                                    <div class="clear"></div>
+
+                                        <div class=" tab-content">
+                                            <div class="tab-pane active" id="tab-description">
+                                                <pre><{$item.0.description}></pre>
+                                                <pre style="margin: auto;"><img src="__PUBLIC__/Uploads/<php>echo date('Y-m-d',$item['1']['time']);</php>/<{$item.0.image}>"/></pre>
+                                            </div>
+
+                                            <div class="tab-pane " id="tab-reviews">
+                                                <div id="reviews">
+                                                    <div id="comments">
+                                                        <h2>Reviews</h2>
+                                                        <p class="woocommerce-noreviews">There are no reviews yet.</p>
+                                                    </div>
+
+                                                    <div id="review_form_wrapper">
+                                                        <div id="review_form">
+                                                            <div id="respond" class="comment-respond">
+                                                                <h3 id="reply-title" class="comment-reply-title">
+                                                                    Be the first to review "turkey qui"
+                                                                    <small><a rel="nofollow" id="cancel-comment-reply-link" href="#" style="display:none;">Cancel reply</a></small>
+                                                                </h3>
+
+                                                                <form action="" method="post" id="commentform" class="comment-form">
+                                                                    <p class="comment-form-rating">
+                                                                        <label for="rating">Your Rating</label>
+                                                                        <select name="rating" id="rating">
+                                                                            <option value="">Rate ...</option>
+                                                                            <option value="5">Perfect</option>
+                                                                            <option value="4">Good</option>
+                                                                            <option value="3">Average</option>
+                                                                            <option value="2">Not that bad</option>
+                                                                            <option value="1">Very Poor</option>
+                                                                        </select>
+                                                                    </p>
+
+                                                                    <p class="comment-form-comment">
+                                                                        <label for="comment">Your Review</label>
+                                                                        <textarea id="comment" name="comment" cols="45" rows="8" aria-required="true"></textarea>
+                                                                    </p>
+
+                                                                    <p class="form-submit">
+                                                                        <input name="submit" type="submit" id="submit" class="submit" value="Submit">
+                                                                    </p>
+                                                                </form>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="clear"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                </div>
+                            </div>
+
+                            <div class="bottom-single-product theme-clearfix">
+                                <div class="widget-1 widget-first widget sw_related_upsell_widget-2 sw_related_upsell_widget" data-scroll-reveal="enter bottom move 20px wait 0.2s">
+                                    <div class="widget-inner">
+                                        <div id="slider_sw_related_upsell_widget-2" class="sw-woo-container-slider related-products responsive-slider clearfix loading" data-lg="4" data-md="3" data-sm="2" data-xs="2" data-mobile="1" data-speed="1000" data-scroll="1" data-interval="5000" data-autoplay="false">
+                                            <div class="resp-slider-container">
+                                                <div class="box-slider-title">
+                                                    <h2><span>相似商品</span></h2>
+                                                </div>
+
+                                                <div class="slider responsive">
+                                                    <div class="item ">
+                                                        <div class="item-wrap">
+                                                            <div class="item-detail">
+                                                                <div class="item-img products-thumb">
+                                                                    <a href="simple_product.html">
+                                                                        <div class="product-thumb-hover">
+                                                                            <img width="300" height="300" src="__PUBLIC__/Bootstrap/images/1903/49-300x300.jpg" class="attachment-shop_catalog size-shop_catalog wp-post-image" alt="" srcset="__PUBLIC__/Bootstrap/images/1903/49-300x300.jpg 300w, __PUBLIC__/Bootstrap/images/1903/49-150x150.jpg 150w, __PUBLIC__/Bootstrap/images/1903/49-180x180.jpg 180w, __PUBLIC__/Bootstrap/images/1903/49.jpg 600w" sizes="(max-width: 300px) 100vw, 300px">
+                                                                        </div>
+                                                                    </a>
+
+                                                                    <!-- add to cart, wishlist, compare -->
+                                                                    <div class="item-bottom clearfix">
+                                                                        <a rel="nofollow" href="#" class="button product_type_simple add_to_cart_button ajax_add_to_cart" title="Add to Cart">Add to cart</a>
+
+                                                                        <a href="javascript:void(0)" class="compare button" rel="nofollow" title="Add to Compare">Compare</a>
+
+                                                                        <div class="yith-wcwl-add-to-wishlist add-to-wishlist-248">
+                                                                            <div class="yith-wcwl-add-button show" style="display:block">
+                                                                                <a href="#" rel="nofollow" class="add_to_wishlist">Add to Wishlist</a>
+                                                                                <img src="__PUBLIC__/Bootstrap/images/wpspin_light.gif" class="ajax-loading" alt="loading" width="16" height="16" style="visibility:hidden" />
+                                                                            </div>
+
+                                                                            <div class="yith-wcwl-wishlistaddedbrowse hide" style="display:none;">
+                                                                                <span class="feedback">Product added!</span>
+                                                                                <a href="#" rel="nofollow">Browse Wishlist</a>
+                                                                            </div>
+
+                                                                            <div class="yith-wcwl-wishlistexistsbrowse hide" style="display:none">
+                                                                                <span class="feedback">The product is already in the wishlist!</span>
+                                                                                <a href="#" rel="nofollow">Browse Wishlist</a>
+                                                                            </div>
+
+                                                                            <div style="clear:both"></div>
+                                                                            <div class="yith-wcwl-wishlistaddresponse"></div>
+                                                                        </div>
+
+                                                                        <div class="clear"></div>
+                                                                        <a href="#" data-fancybox-type="ajax" class="sm_quickview_handler-list fancybox fancybox.ajax">Quick View </a>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="item-content">
+                                                                    <!-- rating  -->
+                                                                    <div class="reviews-content">
+                                                                        <div class="star"></div>
+                                                                        <div class="item-number-rating">
+                                                                            0 Review(s)
+                                                                        </div>
+                                                                    </div>
+                                                                    <!-- end rating  -->
+
+                                                                    <h4><a href="simple_product.html" title="turkey qui">Turkey Qui</a></h4>
+
+                                                                    <!-- price -->
+                                                                    <div class="item-price">
+																			<span>
+																				<span class="woocommerce-Price-amount amount">
+																					<span class="woocommerce-Price-currencySymbol">$</span>300.00
+																				</span>
+																			</span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="item ">
+                                                        <div class="item-wrap">
+                                                            <div class="item-detail">
+                                                                <div class="item-img products-thumb">
+                                                                    <span class="onsale">Sale!</span>
+                                                                    <a href="simple_product.html">
+                                                                        <div class="product-thumb-hover">
+                                                                            <img width="300" height="300" src="__PUBLIC__/Bootstrap/images/1903/39-300x300.jpg" class="attachment-shop_catalog size-shop_catalog wp-post-image" alt="" srcset="__PUBLIC__/Bootstrap/images/1903/39-300x300.jpg 300w, __PUBLIC__/Bootstrap/images/1903/39-150x150.jpg 150w, __PUBLIC__/Bootstrap/images/1903/39-180x180.jpg 180w, __PUBLIC__/Bootstrap/images/1903/39.jpg 600w" sizes="(max-width: 300px) 100vw, 300px">
+                                                                        </div>
+                                                                    </a>
+
+                                                                    <!-- add to cart, wishlist, compare -->
+                                                                    <div class="item-bottom clearfix">
+                                                                        <a rel="nofollow" href="#" class="button product_type_simple add_to_cart_button ajax_add_to_cart" title="Add to Cart">Add to cart</a>
+
+                                                                        <a href="javascript:void(0)" class="compare button" rel="nofollow" title="Add to Compare">Compare</a>
+
+                                                                        <div class="yith-wcwl-add-to-wishlist add-to-wishlist-248">
+                                                                            <div class="yith-wcwl-add-button show" style="display:block">
+                                                                                <a href="#" rel="nofollow" class="add_to_wishlist">Add to Wishlist</a>
+                                                                                <img src="__PUBLIC__/Bootstrap/images/wpspin_light.gif" class="ajax-loading" alt="loading" width="16" height="16" style="visibility:hidden" />
+                                                                            </div>
+
+                                                                            <div class="yith-wcwl-wishlistaddedbrowse hide" style="display:none;">
+                                                                                <span class="feedback">Product added!</span>
+                                                                                <a href="#" rel="nofollow">Browse Wishlist</a>
+                                                                            </div>
+
+                                                                            <div class="yith-wcwl-wishlistexistsbrowse hide" style="display:none">
+                                                                                <span class="feedback">The product is already in the wishlist!</span>
+                                                                                <a href="#" rel="nofollow">Browse Wishlist</a>
+                                                                            </div>
+
+                                                                            <div style="clear:both"></div>
+                                                                            <div class="yith-wcwl-wishlistaddresponse"></div>
+                                                                        </div>
+
+                                                                        <div class="clear"></div>
+                                                                        <a href="#" data-fancybox-type="ajax" class="sm_quickview_handler-list fancybox fancybox.ajax">Quick View </a>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="item-content">
+                                                                    <!-- rating  -->
+                                                                    <div class="reviews-content">
+                                                                        <div class="star"></div>
+                                                                        <div class="item-number-rating">
+                                                                            0 Review(s)
+                                                                        </div>
+                                                                    </div>
+                                                                    <!-- end rating  -->
+
+                                                                    <h4><a href="simple_product.html" title="iPad Mini 2 Retina">iPad Mini 2 Retina</a></h4>
+
+                                                                    <!-- price -->
+                                                                    <div class="item-price">
+																			<span>
+																				<del>
+																					<span class="woocommerce-Price-amount amount">
+																						<span class="woocommerce-Price-currencySymbol">$</span>300.00
+																					</span>
+																				</del>
+
+																				<ins>
+																					<span class="woocommerce-Price-amount amount">
+																						<span class="woocommerce-Price-currencySymbol">$</span>290.00
+																					</span>
+																				</ins>
+																			</span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="item ">
+                                                        <div class="item-wrap">
+                                                            <div class="item-detail">
+                                                                <div class="item-img products-thumb">
+                                                                    <a href="simple_product.html">
+                                                                        <div class="product-thumb-hover">
+                                                                            <img width="300" height="300" src="__PUBLIC__/Bootstrap/images/1903/22-300x300.jpg" class="attachment-shop_catalog size-shop_catalog wp-post-image" alt="" srcset="__PUBLIC__/Bootstrap/images/1903/22-300x300.jpg 300w, __PUBLIC__/Bootstrap/images/1903/22-150x150.jpg 150w, __PUBLIC__/Bootstrap/images/1903/22-180x180.jpg 180w, __PUBLIC__/Bootstrap/images/1903/22.jpg 600w" sizes="(max-width: 300px) 100vw, 300px">
+                                                                        </div>
+                                                                    </a>
+
+                                                                    <!-- add to cart, wishlist, compare -->
+                                                                    <div class="item-bottom clearfix">
+                                                                        <a rel="nofollow" href="#" class="button product_type_simple add_to_cart_button ajax_add_to_cart" title="Add to Cart">Add to cart</a>
+
+                                                                        <a href="javascript:void(0)" class="compare button" rel="nofollow" title="Add to Compare">Compare</a>
+
+                                                                        <div class="yith-wcwl-add-to-wishlist add-to-wishlist-248">
+                                                                            <div class="yith-wcwl-add-button show" style="display:block">
+                                                                                <a href="#" rel="nofollow" class="add_to_wishlist">Add to Wishlist</a>
+                                                                                <img src="__PUBLIC__/Bootstrap/images/wpspin_light.gif" class="ajax-loading" alt="loading" width="16" height="16" style="visibility:hidden" />
+                                                                            </div>
+
+                                                                            <div class="yith-wcwl-wishlistaddedbrowse hide" style="display:none;">
+                                                                                <span class="feedback">Product added!</span>
+                                                                                <a href="#" rel="nofollow">Browse Wishlist</a>
+                                                                            </div>
+
+                                                                            <div class="yith-wcwl-wishlistexistsbrowse hide" style="display:none">
+                                                                                <span class="feedback">The product is already in the wishlist!</span>
+                                                                                <a href="#" rel="nofollow">Browse Wishlist</a>
+                                                                            </div>
+
+                                                                            <div style="clear:both"></div>
+                                                                            <div class="yith-wcwl-wishlistaddresponse"></div>
+                                                                        </div>
+
+                                                                        <div class="clear"></div>
+                                                                        <a href="#" data-fancybox-type="ajax" class="sm_quickview_handler-list fancybox fancybox.ajax">Quick View </a>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="item-content">
+                                                                    <!-- rating  -->
+                                                                    <div class="reviews-content">
+                                                                        <div class="star"></div>
+                                                                        <div class="item-number-rating">
+                                                                            0 Review(s)
+                                                                        </div>
+                                                                    </div>
+                                                                    <!-- end rating  -->
+
+                                                                    <h4><a href="simple_product.html" title="Philips HR2195">Philips HR2195</a></h4>
+
+                                                                    <!-- price -->
+                                                                    <div class="item-price">
+																			<span>
+																				<span class="woocommerce-Price-amount amount">
+																					<span class="woocommerce-Price-currencySymbol">$</span>200.00
+																				</span>
+																			</span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="item ">
+                                                        <div class="item-wrap">
+                                                            <div class="item-detail">
+                                                                <div class="item-img products-thumb">
+                                                                    <a href="simple_product.html">
+                                                                        <div class="product-thumb-hover">
+                                                                            <img width="300" height="300" src="__PUBLIC__/Bootstrap/images/1903/14-300x300.jpg" class="attachment-shop_catalog size-shop_catalog wp-post-image" alt="" srcset="__PUBLIC__/Bootstrap/images/1903/14-300x300.jpg 300w, __PUBLIC__/Bootstrap/images/1903/14-150x150.jpg 150w, __PUBLIC__/Bootstrap/images/1903/14-180x180.jpg 180w, __PUBLIC__/Bootstrap/images/1903/14.jpg 600w" sizes="(max-width: 300px) 100vw, 300px">
+                                                                        </div>
+                                                                    </a>
+
+                                                                    <!-- add to cart, wishlist, compare -->
+                                                                    <div class="item-bottom clearfix">
+                                                                        <a rel="nofollow" href="#" class="button product_type_simple add_to_cart_button ajax_add_to_cart" title="Add to Cart">Add to cart</a>
+
+                                                                        <a href="javascript:void(0)" class="compare button" rel="nofollow" title="Add to Compare">Compare</a>
+
+                                                                        <div class="yith-wcwl-add-to-wishlist add-to-wishlist-248">
+                                                                            <div class="yith-wcwl-add-button show" style="display:block">
+                                                                                <a href="#" rel="nofollow" class="add_to_wishlist">Add to Wishlist</a>
+                                                                                <img src="__PUBLIC__/Bootstrap/images/wpspin_light.gif" class="ajax-loading" alt="loading" width="16" height="16" style="visibility:hidden" />
+                                                                            </div>
+
+                                                                            <div class="yith-wcwl-wishlistaddedbrowse hide" style="display:none;">
+                                                                                <span class="feedback">Product added!</span>
+                                                                                <a href="#" rel="nofollow">Browse Wishlist</a>
+                                                                            </div>
+
+                                                                            <div class="yith-wcwl-wishlistexistsbrowse hide" style="display:none">
+                                                                                <span class="feedback">The product is already in the wishlist!</span>
+                                                                                <a href="#" rel="nofollow">Browse Wishlist</a>
+                                                                            </div>
+
+                                                                            <div style="clear:both"></div>
+                                                                            <div class="yith-wcwl-wishlistaddresponse"></div>
+                                                                        </div>
+
+                                                                        <div class="clear"></div>
+                                                                        <a href="#" data-fancybox-type="ajax" class="sm_quickview_handler-list fancybox fancybox.ajax">Quick View </a>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="item-content">
+                                                                    <!-- rating  -->
+                                                                    <div class="reviews-content">
+                                                                        <div class="star"></div>
+                                                                        <div class="item-number-rating">
+                                                                            0 Review(s)
+                                                                        </div>
+                                                                    </div>
+                                                                    <!-- end rating  -->
+
+                                                                    <h4><a href="simple_product.html" title="sony xperia s">sony xperia s</a></h4>
+
+                                                                    <!-- price -->
+                                                                    <div class="item-price">
+																			<span>
+																				<span class="woocommerce-Price-amount amount">
+																					<span class="woocommerce-Price-currencySymbol">$</span>300.00
+																				</span>
+																			</span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="item ">
+                                                        <div class="item-wrap">
+                                                            <div class="item-detail">
+                                                                <div class="item-img products-thumb">
+                                                                    <a href="simple_product.html">
+                                                                        <div class="product-thumb-hover">
+                                                                            <img width="300" height="300" src="__PUBLIC__/Bootstrap/images/1903/58-300x300.jpg" class="attachment-shop_catalog size-shop_catalog wp-post-image" alt="" srcset="__PUBLIC__/Bootstrap/images/1903/58-300x300.jpg 300w, __PUBLIC__/Bootstrap/images/1903/58-150x150.jpg 150w, __PUBLIC__/Bootstrap/images/1903/58-180x180.jpg 180w, __PUBLIC__/Bootstrap/images/1903/58.jpg 600w" sizes="(max-width: 300px) 100vw, 300px">
+                                                                        </div>
+                                                                    </a>
+
+                                                                    <!-- add to cart, wishlist, compare -->
+                                                                    <div class="item-bottom clearfix">
+                                                                        <a rel="nofollow" href="#" class="button product_type_simple add_to_cart_button ajax_add_to_cart" title="Add to Cart">Add to cart</a>
+
+                                                                        <a href="javascript:void(0)" class="compare button" rel="nofollow" title="Add to Compare">Compare</a>
+
+                                                                        <div class="yith-wcwl-add-to-wishlist add-to-wishlist-248">
+                                                                            <div class="yith-wcwl-add-button show" style="display:block">
+                                                                                <a href="#" rel="nofollow" class="add_to_wishlist">Add to Wishlist</a>
+                                                                                <img src="__PUBLIC__/Bootstrap/images/wpspin_light.gif" class="ajax-loading" alt="loading" width="16" height="16" style="visibility:hidden" />
+                                                                            </div>
+
+                                                                            <div class="yith-wcwl-wishlistaddedbrowse hide" style="display:none;">
+                                                                                <span class="feedback">Product added!</span>
+                                                                                <a href="#" rel="nofollow">Browse Wishlist</a>
+                                                                            </div>
+
+                                                                            <div class="yith-wcwl-wishlistexistsbrowse hide" style="display:none">
+                                                                                <span class="feedback">The product is already in the wishlist!</span>
+                                                                                <a href="#" rel="nofollow">Browse Wishlist</a>
+                                                                            </div>
+
+                                                                            <div style="clear:both"></div>
+                                                                            <div class="yith-wcwl-wishlistaddresponse"></div>
+                                                                        </div>
+
+                                                                        <div class="clear"></div>
+                                                                        <a href="#" data-fancybox-type="ajax" class="sm_quickview_handler-list fancybox fancybox.ajax">Quick View </a>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="item-content">
+                                                                    <!-- rating  -->
+                                                                    <div class="reviews-content">
+                                                                        <div class="star"></div>
+                                                                        <div class="item-number-rating">
+                                                                            0 Review(s)
+                                                                        </div>
+                                                                    </div>
+                                                                    <!-- end rating  -->
+
+                                                                    <h4><a href="simple_product.html" title="nikon d7000">nikon d7000</a></h4>
+
+                                                                    <!-- price -->
+                                                                    <div class="item-price">
+																			<span>
+																				<span class="woocommerce-Price-amount amount">
+																					<span class="woocommerce-Price-currencySymbol">$</span>300.00
+																				</span>
+																			</span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="widget-2 widget-last widget sw_related_upsell_widget-3 sw_related_upsell_widget" data-scroll-reveal="enter bottom move 20px wait 0.2s">
+                                    <div class="widget-inner"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--login-->
+<div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title text-centre" id="myModalLabel">登陆</h4>
+            </div>
+            <div class="modal-body">
+                <form action="" method="post" id="upload_login">
+                    <div class="input-group">
+                        <span class="input-group-addon" id="phone">手机号</span>
+                        <input type="text" name="phone" class="form-control" placeholder="手机号" aria-describedby="phone">
+                    </div>
+                    <br>
+                    <div class="input-group">
+                        <span class="input-group-addon" id="password">密　码</span>
+                        <input type="text" name="password" class="form-control" placeholder="密码" aria-describedby="password">
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                <button type="button" onclick="upload_login()" class="btn btn-primary">登陆</button>
+            </div>
+        </div>
+    </div>
+</div>
+<include file="Public/footer"/>
+<include file="Public/js2"/>
+<script>
+    $(function(){
+        $("#button").click(function () {
+//                                                                        alert($("#size").serialize().split("&").length);
+            $.ajax({
+                'url':'__ROOT__/Cart/add_cart',
+                'type':'post',
+                'data':$("#size").serialize(),
+                success:function (i) {
+                    if(i=='1'){
+                        layer.msg('加入购物车中');
+//                        alert('加入购物车中');
+                    }
+                }
+            });
+        });
+    });
+
+    function number(obj) {
+        $(function () {
+            if($(obj).text()=='-'){
+                $(".number_count").val(parseInt($(".number_count").val())-parseInt(1));
+            }else {
+                $(".number_count").val(parseInt($(".number_count").val())+parseInt(1));
+            }
+            if(parseInt($(".number_count").val())<parseInt(1)){
+                $(".number_count").val(parseInt(1));
+            }else if(parseInt($(".number_count").val())>parseInt(99)){
+                $(".number_count").val(parseInt(99));
+            }
+        });
+
+    }
+
+    function login(obj) {
+        $(function () {
+            var url='__ROOT__/Login/getLogin';
+            $.ajax({
+                'url':url,
+                'type':'get',
+                'dataType':'json',
+                'success':function (res) {
+                   if(res=='error'){
+                       layer.msg('您尚未登陆，请登录');
+                       $(obj).attr('data-target','#login');
+                   }else{
+                       $(obj).attr('data-target',"#purchase");
+                   }
+                }
+            });
+        });
+    }
+
+    //ajax登陆
+    function upload_login() {
+        $(function () {
+            var url='__ROOT__/Login/login.html';
+            var data=$("#upload_login").serialize();
+            $.ajax({
+                'url':url,
+                'type':'post',
+                'data':data,
+                'dataType':'json',
+                'success':function (res) {
+                    if(res=='error'){
+                        layer.msg('密码错误');
+                    }else{
+                        $("#login").remove();
+                        $("#add_cart").removeAttr('data-target','');
+                        $("#add_cart").attr('data-target',"#purchase");
+                    }
+
+                }
+            })
+        });
+    }
+</script>
+</body>
+</html>

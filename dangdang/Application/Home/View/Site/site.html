@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>添加地址</title>
+    <include file="Public/head"/>
+    <include file="Public/js"/>
+</head>
+<body>
+<include file="Public/header"/>
+
+<div class="container " style="padding-top:20px;">
+    <include file="Public/user_nav"/>
+    <div class="pull-left" style="border:1px solid #CCCCCC;width:80%;">
+        <div class="bg-info text-danger"><h4><div style="padding:11px;">添加收货地址</div></h4></div>
+        <p> <div class="">
+        <span style="margin-left:15px;color:red;">新增收货地址</span>
+        <span class="">
+                    　带<span style="color:red;">*</span>均为必填项
+                </span>
+    </div></p>
+        <form class="form-horizontal" id="add_site"  action="__ROOT__/User/add_site" method="post">
+            <div class="form-group">
+                <label class="col-sm-2 col-xs-2 control-label">所在地区：<span style="color:red;">*</span> </label>
+                <div class="col-md-3 col-sm-3 col-xs-3">
+                    <select name="province" class="form-control" onchange="citys(this,'__ROOT__/Site/city')" id="province">
+                        <option selected="selected">--省份--</option>
+                        <foreach name="city" item="value">
+                            <option value="<{$value.id}>"><{$value.name}></option>
+                        </foreach>
+                    </select>
+                </div>
+                <div class="col-md-3 col-sm-3 col-xs-3">
+                    <select name="city" class="form-control" onchange="citys(this,'__ROOT__/Site/city')" id="city">
+                        <option class="city" selected="selected">--城市--</option>
+                    </select>
+                </div>
+                <div class="col-md-3 col-sm-3 col-xs-3">
+                    <select name="region" class="form-control" onchange="citys(this,'__ROOT__/Site/city')" id="region">
+                        <option class="region" selected="selected">--城区--</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-xs-2 control-label" for="address">详细地址:<span style="color:red;">*</span></label>
+                <div class="col-xs-9">
+                    <input class="form-control" type="text" id="address" name="address" placeholder="详细地址">
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-xs-2 control-label" for="zip_code">邮政编码:<span style="color:red;">*</span></label>
+                <div class="col-xs-9">
+                    <input type="text" class="form-control" id="zip_code" name="zip_code" placeholder="如果不知道则填 0">
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-xs-2 control-label" for="name">收货人姓名:<span style="color:red;">*</span></label>
+                <div  class="col-xs-9">
+                    <input type="text" class="form-control" id="name" name="name" placeholder="请输入收货人姓名">
+                </div>
+
+            </div>
+            <div class="form-group">
+                <label class="col-xs-2 control-label" for="phone">手机号码:<span style="color:red;">*</span></label>
+                <div class="col-xs-9">
+                    <input type="text" class="form-control" id="phone" name="phone" placeholder="请输入手机号">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox" name="state" value="1">是否设为默认收货地址
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                    <button type="button" onclick="add_site()" class="btn btn-default">添加地址</button>
+                </div>
+            </div>
+        </form>
+        <table class="table table-container mb-15" style="width:95%;margin:auto;border-left:1px solid #CCCCCC;border-right: 1px solid #CCCCCC;">
+            <thead>
+            <tr style="background: #CCCCCC;">
+                <th>收货人</th>
+                <th>所在地区</th>
+                <th>详细地址</th>
+                <th>邮编</th>
+                <th>电话/手机</th>
+                <th>操作</th>
+                <th></th>
+            </tr>
+            </thead>
+            <tbody>
+            <foreach name="site" item="value">
+                <tr id="del-site-<{$value.id}>" class="cen" style="border-bottom:1px solid #CCCCCC">
+                    <td class="text-muted"><{$value.name}></td>
+                    <td style="word-break:break-all;" class="text-muted"><p><{$value.province.name}> <{$value.city.name}> <{$value.region.name}></p></td>
+                    <td style="word-break:break-all" class="text-muted"><p><{$value.address}></p></td>
+                    <td class="text-muted"><{$value.zip_code}></td>
+                    <td class="text-muted"><{$value.phone}></td>
+                    <td><a href="__ROOT__/Site/edit_site/id/<{$value.id}>.html" class="btn text-danger">修改</a><a onclick="del_site('<{$value.id}>')"  class="btn text-danger">删除</a></td>
+                    <td><eq name="value.state" value="1"><span class="text-danger">默认地址</span></eq></td>
+                </tr>
+            </foreach>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<include file="Public/footer"/>
+<include file="Public/js2"/>
+<!--省市三级联动-->
+<script type="text/javascript" src="__PUBLIC__/JavaScript/Home/SiteCity.js"></script>
+<script type="text/javascript" language="JavaScript">
+    //省市联动
+//    function citys(obj) {
+//        var city_id=$(obj).val();
+//        //获得父节点后获取后一个兄弟元素然后获取select子节点再取出id
+//        var id=$(obj).parent().next('div').find('select').attr('id');
+//        //获得父节点后获取后一个兄弟元素然后获取select子节点获取option子节点再取出内容
+//        var text=$(obj).parent().next('div').children().children().first().html();
+//        var data={'id':city_id};
+//        var url='__ROOT__/Site/city';
+//        $.ajax({
+//            url:url,
+//            type:'post',
+//            data:data,
+//            dataType:'json',
+//            success:function (res) {
+//                var res=eval("("+res+")");
+//                if(res.return_code=='404'){
+//                    //不处理
+//                }else{
+//                    $('#'+id).empty();//清除上一条插入的数据
+//                    $('#'+id).append("<option selected='selected' class='' value=''>"+text+"</option>");//插入所属，可省略
+//                    $.each(res,function (i,n) {
+//                        $('#'+id).append("<option class='"+n.id+"' value='"+n.id+"'>"+n.name+"</option>");
+//                    });
+//                }
+//
+//            }
+//        });
+//    }
+
+    //添加收货地址
+    function add_site() {
+        $(function () {
+            var data=$('#add_site').serialize();
+            var url='__ROOT__/Site/add_site';
+            alert(data);
+            $.ajax({
+                'url':url,
+                'data':data,
+                'type':'post',
+                'success':function (res) {
+                    if(res=='success'){
+                        layer.msg('添加地址成功');
+                    }else if(res=='max'){
+                        layer.msg('已达到最大可保存地址数量');
+                    }else{
+                        layer.msg('添加地址失败，请稍后重试');
+                    }
+                }
+            });
+        });
+    }
+
+    //删除收货地址
+    function del_site(id) {
+        var url='__ROOT__/Site/del_site';
+        var data={'id':id};
+        $(function () {
+            $.ajax({
+                'url':url,
+                'type':'get',
+                'data':data,
+                'success':function (res) {
+                    if(res=='success'){
+                        $("#del-site-"+id).remove();
+                        layer.msg('删除成功');
+                    }else{
+                        layer.msg('删除失败');
+                    }
+                }
+            });
+        });
+    }
+    //                $(function () {
+    //                    $("#province").change(function () {
+    //                        var data={'id':$(this).val()};
+    //                        var url='__ROOT__/User/res';
+    //                        $.ajax({
+    //                            url:url,
+    //                            type:'get',
+    //                            data:data,
+    //                            dataType:'json',
+    //                            success:function (res) {
+    //                                var res=eval(res);
+    //                               $('#city').empty();
+    //                                $('#city').append("<option value=''>--城市--</option>");
+    //                               $.each(res,function (i,n) {
+    //                                   $('#city').append("<option value='"+n.id+"'>"+n.name+"</option>");
+    //                               });
+    //                            }
+    //                        });
+    //                    });
+    //                });
+</script>
+</body>
+</html>

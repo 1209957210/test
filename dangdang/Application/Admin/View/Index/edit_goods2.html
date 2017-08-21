@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <include file="Public/head"/>
+</head>
+<body>
+<div class="main-wrap">
+    <include file="Public/left"/>
+    <div class="content-wrap">
+        <include file="Public/header"/>
+        <!--表单-->
+        <main class="main-cont content mCustomScrollbar">
+            <div class="page-wrap container-fluid">
+                <!--开始::内容-->
+                <section class="page-hd">
+                    <header>
+                        <h2 class="title">编辑商品</h2>
+                        <p class="title-description">
+                            <button class="btn btn-primary btn-lg active" onclick="update()">保存修改</button>
+                        </p>
+                    </header>
+                    <hr>
+                </section>
+                <!--表格-->
+                <table class="table table-container table-bordered mb-15">
+                    <thead>
+                    <tr>
+                        <th>id</th>
+                        <th>产品名称</th>
+                        <th>图片</th>
+                        <th>库存数量</th>
+                        <th>市场价</th>
+                        <th>销售价</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <form action="__ROOT__/Admin/Goods/edit_goods" method="post" id="update" enctype="multipart/form-data">
+                        <tr class="cen">
+                            <td><input type="text" name="id" value="<{$goods[0]['id']}>"/></td>
+                            <td><input type="text" name="goods_name" value="<{$goods[0]['goods_name']}>"/></td>
+                            <td>
+                                <foreach name="goods" item="vo">
+                                    <a href="#/id/<{$vo.id}>">
+                                        <img class="img-responsive center-block" style="height:140px;" alt="<{$vo.goods_name}>" src="__PUBLIC__/Uploads/<php>echo date('Y-m-d',($vo['time']));</php>/<{$vo.images}>"/>
+                                    </a>
+                                </foreach>
+                            </td>
+                            <td><input name="stock" type="text" value="<{$goods[0]['stock']}>"/></td>
+                            <td><input name="market_price" type="text" value="<{$goods[0]['market_price']}>"/></td>
+                            <td><input name="sales_price" type="text" value="<{$goods[0]['sales_price']}>"/></td>
+                        </tr>
+                    </form>
+                    </tbody>
+                </table>
+                <!--开始::结束-->
+            </div>
+        </main>
+        <include file="Public/bottom"/>
+    </div>
+</div>
+<script type="text/javascript" language="JavaScript">
+    function update(){
+        $(function(){
+            $("#update").submit();
+        });
+    }
+    function set_delete(id){
+        var id={'id':id};
+        var url='__ROOT__/Admin/Sql/update';
+        $(function(){
+            $.ajax({
+                url:url,
+                data:id,
+                type:'get',
+                success:function (int){
+                    top.location.reload();
+                    int?layer.msg('下架成功'):layer.msg('下架失败');
+                }
+            });
+        });
+    }
+</script>
+</body>
+</html>
